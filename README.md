@@ -72,13 +72,13 @@ In this way, we can create the *Expectations* of all the desires tables from the
 
 Once the *Expectations* have been defined, we can run them by executing:
 ```
-$ great_expectations checkpoint new jaffle_shop__customers
+$ great_expectations checkpoint new sources.jaffle_shop__customers
 ```
 That will open another `jupyer notebook`, where we can modify the configurations to select the proper *Expectations* to be triggered when executing that particular `checkpoint`. This command will create the proper `.yml` file with the configuration on the `checkpoints` directory. 
 
 Finally, run the validations, we execute:
 ```
-$ great_expectations checkpoint run jaffle_shop__customers
+$ great_expectations checkpoint run sources.jaffle_shop__customers
 ```
 
 Also, we can open the `uncommited/data_docs/local_site/index.html` file to see the result of the different runs, together with the definition of each *Expectation*.
