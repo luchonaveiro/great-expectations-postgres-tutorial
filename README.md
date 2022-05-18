@@ -63,7 +63,7 @@ $ great_expectations suite new
 
 Select the 3rd option (the one that states `Automatically, using a profiler`), choose the table to validate, and choose a name, or keep the proposed one. This will open a new `jupyter notebook` that once runned, will create the necessary `.json` file defining the data *Expectations*. In case we want to review or add new validations, we can execute:
 ```
-great_expectations suite edit jaffle_shop.orders.warning # this should be the name selected
+great_expectations suite edit jaffle_shop.customers.warning # this should be the name selected
 ```
 
 There we can choose `Interactively, with a sample batch of data`, and a notebook will open, and there we can add the new validations. Once runned, the `.json` filestored on `expectations` directory, will be modified with the proper validations.
@@ -72,13 +72,13 @@ In this way, we can create the *Expectations* of all the desires tables from the
 
 Once the *Expectations* have been defined, we can run them by executing:
 ```
-$ great_expectations checkpoint new jaffle_shop__orders
+$ great_expectations checkpoint new jaffle_shop__customers
 ```
 That will open another `jupyer notebook`, where we can modify the configurations to select the proper *Expectations* to be triggered when executing that particular `checkpoint`. This command will create the proper `.yml` file with the configuration on the `checkpoints` directory. 
 
 Finally, run the validations, we execute:
 ```
-$ great_expectations checkpoint run jaffle_shop__orders
+$ great_expectations checkpoint run jaffle_shop__customers
 ```
 
 Also, we can open the `uncommited/data_docs/local_site/index.html` file to see the result of the different runs, together with the definition of each *Expectation*.
