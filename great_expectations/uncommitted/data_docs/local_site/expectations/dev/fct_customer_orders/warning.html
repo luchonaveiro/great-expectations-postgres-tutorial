@@ -595,7 +595,7 @@ $(function() {
         <p>To automatically generate a notebook that does this run:</p>
         <div class="input-group mb-3">
           
-            <input type="text" class="form-control edit-command" readonly value="great_expectations suite edit jaffle_shop.customers.warning">
+            <input type="text" class="form-control edit-command" readonly value="great_expectations suite edit dev.fct_customer_orders.warning">
           
             <div class="input-group-append">
                 <button class="btn btn-primary copy-edit-command" type="button"><i class="far fa-clipboard"></i> Copy</button>
@@ -622,7 +622,7 @@ $(function() {
         <a href="../../../index.html">
           <img
             class="NO-CACHE"
-            src="https://great-expectations-web-assets.s3.us-east-2.amazonaws.com/logo-long.png?d=20220518T231227.277594Z&dataContextId=853ff521-99df-4e9e-bb0c-c9e52c1816d0"
+            src="https://great-expectations-web-assets.s3.us-east-2.amazonaws.com/logo-long.png?d=20220518T232514.255530Z&dataContextId=853ff521-99df-4e9e-bb0c-c9e52c1816d0"
             alt="Great Expectations"
             style="width: auto; height: 50px"
           />
@@ -631,7 +631,7 @@ $(function() {
       
         <ol class="ge-breadcrumbs breadcrumb d-md-inline-flex bg-light ml-2 mr-0 mt-0 mb-0 pt-0 pb-0 d-none">
             <li class="ge-breadcrumbs-item breadcrumb-item"><a href="../../../index.html">Home</a></li>
-            <li class="ge-breadcrumbs-item breadcrumb-item active" aria-current="page">Expectations / jaffle_shop.customers.warning</li>
+            <li class="ge-breadcrumbs-item breadcrumb-item active" aria-current="page">Expectations / dev.fct_customer_orders.warning</li>
         </ol>
       
     </nav>
@@ -724,7 +724,7 @@ $(function() {
             <li class="nav-item col-12">
               <a class="nav-link ge-navigation-sidebar-link ml-1" href="#section-2"
                  style="white-space: normal; word-break: break-all;overflow-wrap: normal;">
-                first_name
+                customer_first_name
               </a>
             </li>
           
@@ -733,7 +733,7 @@ $(function() {
             <li class="nav-item col-12">
               <a class="nav-link ge-navigation-sidebar-link ml-1" href="#section-3"
                  style="white-space: normal; word-break: break-all;overflow-wrap: normal;">
-                id
+                customer_id
               </a>
             </li>
           
@@ -742,7 +742,61 @@ $(function() {
             <li class="nav-item col-12">
               <a class="nav-link ge-navigation-sidebar-link ml-1" href="#section-4"
                  style="white-space: normal; word-break: break-all;overflow-wrap: normal;">
-                last_name
+                customer_last_name
+              </a>
+            </li>
+          
+        
+          
+            <li class="nav-item col-12">
+              <a class="nav-link ge-navigation-sidebar-link ml-1" href="#section-5"
+                 style="white-space: normal; word-break: break-all;overflow-wrap: normal;">
+                customer_lifetime_value
+              </a>
+            </li>
+          
+        
+          
+            <li class="nav-item col-12">
+              <a class="nav-link ge-navigation-sidebar-link ml-1" href="#section-6"
+                 style="white-space: normal; word-break: break-all;overflow-wrap: normal;">
+                order_id
+              </a>
+            </li>
+          
+        
+          
+            <li class="nav-item col-12">
+              <a class="nav-link ge-navigation-sidebar-link ml-1" href="#section-7"
+                 style="white-space: normal; word-break: break-all;overflow-wrap: normal;">
+                order_placed_at
+              </a>
+            </li>
+          
+        
+          
+            <li class="nav-item col-12">
+              <a class="nav-link ge-navigation-sidebar-link ml-1" href="#section-8"
+                 style="white-space: normal; word-break: break-all;overflow-wrap: normal;">
+                order_status
+              </a>
+            </li>
+          
+        
+          
+            <li class="nav-item col-12">
+              <a class="nav-link ge-navigation-sidebar-link ml-1" href="#section-9"
+                 style="white-space: normal; word-break: break-all;overflow-wrap: normal;">
+                payment_finalized_date
+              </a>
+            </li>
+          
+        
+          
+            <li class="nav-item col-12">
+              <a class="nav-link ge-navigation-sidebar-link ml-1" href="#section-10"
+                 style="white-space: normal; word-break: break-all;overflow-wrap: normal;">
+                total_amount_paid
               </a>
             </li>
           
@@ -829,7 +883,7 @@ $(function() {
 
     <tbody>
       <tr>
-          <td id="section-1-content-block-2-cell-1-1" ><div class="show-scrollbars">Expectation Suite Name</div></td><td id="section-1-content-block-2-cell-1-2" ><div class="show-scrollbars">jaffle_shop.customers.warning</div></td></tr><tr>
+          <td id="section-1-content-block-2-cell-1-1" ><div class="show-scrollbars">Expectation Suite Name</div></td><td id="section-1-content-block-2-cell-1-2" ><div class="show-scrollbars">dev.fct_customer_orders.warning</div></td></tr><tr>
           <td id="section-1-content-block-2-cell-2-1" ><div class="show-scrollbars">Great Expectations Version</div></td><td id="section-1-content-block-2-cell-2-2" ><div class="show-scrollbars">0.15.5</div></td></tr></tbody>
 </table>
 
@@ -858,7 +912,7 @@ $(function() {
         
         <li >
                 <span >
-                    Must have these columns in this order: <span class="badge badge-secondary" >id</span>, <span class="badge badge-secondary" >first_name</span>, <span class="badge badge-secondary" >last_name</span>
+                    Must have these columns in this order: <span class="badge badge-secondary" >order_id</span>, <span class="badge badge-secondary" >customer_id</span>, <span class="badge badge-secondary" >order_placed_at</span>, <span class="badge badge-secondary" >order_status</span>, <span class="badge badge-secondary" >total_amount_paid</span>, <span class="badge badge-secondary" >payment_finalized_date</span>, <span class="badge badge-secondary" >customer_first_name</span>, <span class="badge badge-secondary" >customer_last_name</span>, <span class="badge badge-secondary" >transaction_seq</span>, <span class="badge badge-secondary" >customer_sales_seq</span>, <span class="badge badge-secondary" >nvsr</span>, <span class="badge badge-secondary" >customer_lifetime_value</span>, <span class="badge badge-secondary" >fdos</span>
                 </span>
             </li>
     
@@ -874,7 +928,7 @@ $(function() {
         
         <li >
                 <span >
-                    Must have greater than or equal to <span class="badge badge-secondary" >100</span> and less than or equal to <span class="badge badge-secondary" >100</span> rows.
+                    Must have greater than or equal to <span class="badge badge-secondary" >99</span> and less than or equal to <span class="badge badge-secondary" >99</span> rows.
                 </span>
             </li>
     
@@ -910,7 +964,7 @@ $(function() {
         </div>
 
   
-        <p >This Expectation suite currently contains 13 total Expectations across 3 columns.</p>
+        <p >This Expectation suite currently contains 26 total Expectations across 9 columns.</p>
       
     </div>
 
@@ -929,7 +983,7 @@ $(function() {
         <div>
           
                 <h5 class="m-0" >
-                    first_name
+                    customer_first_name
                 </h5>
             
         </div>
@@ -994,7 +1048,7 @@ $(function() {
         <div>
           
                 <h5 class="m-0" >
-                    id
+                    customer_id
                 </h5>
             
         </div>
@@ -1009,70 +1063,6 @@ $(function() {
     
 
 <ul id="section-3-content-block-2-body" >
-    
-            
-        
-        <li >
-                <span >
-                    minimum value must be greater than or equal to <span class="badge badge-secondary" >1</span> and less than or equal to <span class="badge badge-secondary" >1</span>.
-                </span>
-            </li>
-    
-            
-        
-        <li style="list-style-type:none;" >
-                <hr class="mt-1 mb-1" >
-                    
-                </hr>
-            </li>
-    
-            
-        
-        <li >
-                <span >
-                    maximum value must be greater than or equal to <span class="badge badge-secondary" >100</span> and less than or equal to <span class="badge badge-secondary" >100</span>.
-                </span>
-            </li>
-    
-            
-        
-        <li style="list-style-type:none;" >
-                <hr class="mt-1 mb-1" >
-                    
-                </hr>
-            </li>
-    
-            
-        
-        <li >
-                <span >
-                    mean must be greater than or equal to <span class="badge badge-secondary" >50.5</span> and less than or equal to <span class="badge badge-secondary" >50.5</span>.
-                </span>
-            </li>
-    
-            
-        
-        <li style="list-style-type:none;" >
-                <hr class="mt-1 mb-1" >
-                    
-                </hr>
-            </li>
-    
-            
-        
-        <li >
-                <span >
-                    median must be greater than or equal to <span class="badge badge-secondary" >50.5</span> and less than or equal to <span class="badge badge-secondary" >50.5</span>.
-                </span>
-            </li>
-    
-            
-        
-        <li style="list-style-type:none;" >
-                <hr class="mt-1 mb-1" >
-                    
-                </hr>
-            </li>
     
             
         
@@ -1106,22 +1096,6 @@ $(function() {
                 </hr>
             </li>
     
-            
-        
-        <li >
-                <span >
-                    values must be unique.
-                </span>
-            </li>
-    
-            
-        
-        <li style="list-style-type:none;" >
-                <hr class="mt-1 mb-1" >
-                    
-                </hr>
-            </li>
-    
 </ul>
 
 </div>
@@ -1139,7 +1113,7 @@ $(function() {
         <div>
           
                 <h5 class="m-0" >
-                    last_name
+                    customer_last_name
                 </h5>
             
         </div>
@@ -1176,6 +1150,598 @@ $(function() {
         <li >
                 <span >
                     value types must belong to this set: <span class="badge badge-secondary" >CHAR</span> <span class="badge badge-secondary" >NCHAR</span> <span class="badge badge-secondary" >VARCHAR</span> <span class="badge badge-secondary" >NVARCHAR</span> <span class="badge badge-secondary" >TEXT</span> <span class="badge badge-secondary" >NTEXT</span> <span class="badge badge-secondary" >STRING</span> <span class="badge badge-secondary" >StringType</span> <span class="badge badge-secondary" >string</span> <span class="badge badge-secondary" >str</span> <span class="badge badge-secondary" >object</span> <span class="badge badge-secondary" >dtype('O')</span>.
+                </span>
+            </li>
+    
+            
+        
+        <li style="list-style-type:none;" >
+                <hr class="mt-1 mb-1" >
+                    
+                </hr>
+            </li>
+    
+</ul>
+
+</div>
+        
+    </div>
+</div>
+        
+          <div id="section-5" class="ge-section container-fluid mb-1 pb-1 pl-sm-3 px-0">
+    <div class="row" >
+        
+
+<div id="section-5-content-block-1" class="col-12" >
+
+    <div id="section-5-content-block-1-header" class="alert alert-secondary" >
+        <div>
+          
+                <h5 class="m-0" >
+                    customer_lifetime_value
+                </h5>
+            
+        </div>
+      
+    </div>
+
+</div>
+        
+
+<div id="section-5-content-block-2" class="col-12" >
+
+    
+
+<ul id="section-5-content-block-2-body" >
+    
+            
+        
+        <li >
+                <span >
+                    minimum value must be greater than or equal to <span class="badge badge-secondary" >1.0</span> and less than or equal to <span class="badge badge-secondary" >1.0</span>.
+                </span>
+            </li>
+    
+            
+        
+        <li style="list-style-type:none;" >
+                <hr class="mt-1 mb-1" >
+                    
+                </hr>
+            </li>
+    
+            
+        
+        <li >
+                <span >
+                    quantiles must be within the following value ranges.
+                </span>
+            </li>
+    
+            
+        
+        <li style="list-style-type:none;" >
+
+
+
+<table
+  id="section-5-content-block-2-body"
+  class="table table-sm table-unbordered col-4 mt-2" 
+  data-toggle="table"
+  
+>
+    
+    
+    
+      
+    
+      <thead >
+        <tr>
+            
+                
+                <th
+                  
+                >
+                  Quantile
+                </th>
+            
+                
+                <th
+                  
+                >
+                  Min Value
+                </th>
+            
+                
+                <th
+                  
+                >
+                  Max Value
+                </th>
+            
+        </tr>
+      </thead>
+
+    <tbody>
+      <tr>
+          <td id="section-5-content-block-2-cell-1-1" ><div class="show-scrollbars">0.05</div></td><td id="section-5-content-block-2-cell-1-2" ><div class="show-scrollbars">2.0</div></td><td id="section-5-content-block-2-cell-1-3" ><div class="show-scrollbars">2.0</div></td></tr><tr>
+          <td id="section-5-content-block-2-cell-2-1" ><div class="show-scrollbars">Q1</div></td><td id="section-5-content-block-2-cell-2-2" ><div class="show-scrollbars">12.0</div></td><td id="section-5-content-block-2-cell-2-3" ><div class="show-scrollbars">12.0</div></td></tr><tr>
+          <td id="section-5-content-block-2-cell-3-1" ><div class="show-scrollbars">Median</div></td><td id="section-5-content-block-2-cell-3-2" ><div class="show-scrollbars">23.0</div></td><td id="section-5-content-block-2-cell-3-3" ><div class="show-scrollbars">23.0</div></td></tr><tr>
+          <td id="section-5-content-block-2-cell-4-1" ><div class="show-scrollbars">Q3</div></td><td id="section-5-content-block-2-cell-4-2" ><div class="show-scrollbars">30.0</div></td><td id="section-5-content-block-2-cell-4-3" ><div class="show-scrollbars">30.0</div></td></tr><tr>
+          <td id="section-5-content-block-2-cell-5-1" ><div class="show-scrollbars">0.95</div></td><td id="section-5-content-block-2-cell-5-2" ><div class="show-scrollbars">58.0</div></td><td id="section-5-content-block-2-cell-5-3" ><div class="show-scrollbars">58.0</div></td></tr></tbody>
+</table></li>
+    
+            
+        
+        <li style="list-style-type:none;" >
+                <hr class="mt-1 mb-1" >
+                    
+                </hr>
+            </li>
+    
+            
+        
+        <li >
+                <span >
+                    values must never be null.
+                </span>
+            </li>
+    
+            
+        
+        <li style="list-style-type:none;" >
+                <hr class="mt-1 mb-1" >
+                    
+                </hr>
+            </li>
+    
+            
+        
+        <li >
+                <span >
+                    value types must belong to this set: <span class="badge badge-secondary" >FLOAT</span> <span class="badge badge-secondary" >FLOAT4</span> <span class="badge badge-secondary" >FLOAT8</span> <span class="badge badge-secondary" >FLOAT64</span> <span class="badge badge-secondary" >DOUBLE</span> <span class="badge badge-secondary" >DOUBLE_PRECISION</span> <span class="badge badge-secondary" >NUMERIC</span> <span class="badge badge-secondary" >FloatType</span> <span class="badge badge-secondary" >DoubleType</span> <span class="badge badge-secondary" >float</span> <span class="badge badge-secondary" >float_</span> <span class="badge badge-secondary" >float16</span> <span class="badge badge-secondary" >float32</span> <span class="badge badge-secondary" >float64</span> <span class="badge badge-secondary" >number</span> <span class="badge badge-secondary" >DECIMAL</span> <span class="badge badge-secondary" >REAL</span>.
+                </span>
+            </li>
+    
+            
+        
+        <li style="list-style-type:none;" >
+                <hr class="mt-1 mb-1" >
+                    
+                </hr>
+            </li>
+    
+</ul>
+
+</div>
+        
+    </div>
+</div>
+        
+          <div id="section-6" class="ge-section container-fluid mb-1 pb-1 pl-sm-3 px-0">
+    <div class="row" >
+        
+
+<div id="section-6-content-block-1" class="col-12" >
+
+    <div id="section-6-content-block-1-header" class="alert alert-secondary" >
+        <div>
+          
+                <h5 class="m-0" >
+                    order_id
+                </h5>
+            
+        </div>
+      
+    </div>
+
+</div>
+        
+
+<div id="section-6-content-block-2" class="col-12" >
+
+    
+
+<ul id="section-6-content-block-2-body" >
+    
+            
+        
+        <li >
+                <span >
+                    values must never be null.
+                </span>
+            </li>
+    
+            
+        
+        <li style="list-style-type:none;" >
+                <hr class="mt-1 mb-1" >
+                    
+                </hr>
+            </li>
+    
+            
+        
+        <li >
+                <span >
+                    values must be unique.
+                </span>
+            </li>
+    
+            
+        
+        <li style="list-style-type:none;" >
+                <hr class="mt-1 mb-1" >
+                    
+                </hr>
+            </li>
+    
+            
+        
+        <li >
+                <span >
+                    value types must belong to this set: <span class="badge badge-secondary" >INTEGER</span> <span class="badge badge-secondary" >integer</span> <span class="badge badge-secondary" >int</span> <span class="badge badge-secondary" >int_</span> <span class="badge badge-secondary" >int8</span> <span class="badge badge-secondary" >int16</span> <span class="badge badge-secondary" >int32</span> <span class="badge badge-secondary" >int64</span> <span class="badge badge-secondary" >uint8</span> <span class="badge badge-secondary" >uint16</span> <span class="badge badge-secondary" >uint32</span> <span class="badge badge-secondary" >uint64</span> <span class="badge badge-secondary" >Int8Dtype</span> <span class="badge badge-secondary" >Int16Dtype</span> <span class="badge badge-secondary" >Int32Dtype</span> <span class="badge badge-secondary" >Int64Dtype</span> <span class="badge badge-secondary" >UInt8Dtype</span> <span class="badge badge-secondary" >UInt16Dtype</span> <span class="badge badge-secondary" >UInt32Dtype</span> <span class="badge badge-secondary" >UInt64Dtype</span> <span class="badge badge-secondary" >INT</span> <span class="badge badge-secondary" >INTEGER</span> <span class="badge badge-secondary" >INT64</span> <span class="badge badge-secondary" >TINYINT</span> <span class="badge badge-secondary" >BYTEINT</span> <span class="badge badge-secondary" >SMALLINT</span> <span class="badge badge-secondary" >BIGINT</span> <span class="badge badge-secondary" >IntegerType</span> <span class="badge badge-secondary" >LongType</span>.
+                </span>
+            </li>
+    
+            
+        
+        <li style="list-style-type:none;" >
+                <hr class="mt-1 mb-1" >
+                    
+                </hr>
+            </li>
+    
+</ul>
+
+</div>
+        
+    </div>
+</div>
+        
+          <div id="section-7" class="ge-section container-fluid mb-1 pb-1 pl-sm-3 px-0">
+    <div class="row" >
+        
+
+<div id="section-7-content-block-1" class="col-12" >
+
+    <div id="section-7-content-block-1-header" class="alert alert-secondary" >
+        <div>
+          
+                <h5 class="m-0" >
+                    order_placed_at
+                </h5>
+            
+        </div>
+      
+    </div>
+
+</div>
+        
+
+<div id="section-7-content-block-2" class="col-12" >
+
+    
+
+<ul id="section-7-content-block-2-body" >
+    
+            
+        
+        <li >
+                <span >
+                    values must never be null.
+                </span>
+            </li>
+    
+            
+        
+        <li style="list-style-type:none;" >
+                <hr class="mt-1 mb-1" >
+                    
+                </hr>
+            </li>
+    
+            
+        
+        <li >
+                <span >
+                    value types must belong to this set: <span class="badge badge-secondary" >DATE</span> <span class="badge badge-secondary" >TIME</span> <span class="badge badge-secondary" >DATETIME</span> <span class="badge badge-secondary" >DATETIME2</span> <span class="badge badge-secondary" >DATETIME64</span> <span class="badge badge-secondary" >SMALLDATETIME</span> <span class="badge badge-secondary" >DATETIMEOFFSET</span> <span class="badge badge-secondary" >TIMESTAMP</span> <span class="badge badge-secondary" >Timestamp</span> <span class="badge badge-secondary" >TimestampType</span> <span class="badge badge-secondary" >DateType</span> <span class="badge badge-secondary" >datetime64</span> <span class="badge badge-secondary" >datetime64[ns]</span> <span class="badge badge-secondary" >timedelta[ns]</span> <span class="badge badge-secondary" ><M8[ns]</span>.
+                </span>
+            </li>
+    
+            
+        
+        <li style="list-style-type:none;" >
+                <hr class="mt-1 mb-1" >
+                    
+                </hr>
+            </li>
+    
+</ul>
+
+</div>
+        
+    </div>
+</div>
+        
+          <div id="section-8" class="ge-section container-fluid mb-1 pb-1 pl-sm-3 px-0">
+    <div class="row" >
+        
+
+<div id="section-8-content-block-1" class="col-12" >
+
+    <div id="section-8-content-block-1-header" class="alert alert-secondary" >
+        <div>
+          
+                <h5 class="m-0" >
+                    order_status
+                </h5>
+            
+        </div>
+      
+    </div>
+
+</div>
+        
+
+<div id="section-8-content-block-2" class="col-12" >
+
+    
+
+<ul id="section-8-content-block-2-body" >
+    
+            
+        
+        <li >
+                <span >
+                    values must belong to this set: <span class="badge badge-secondary" >completed</span> <span class="badge badge-secondary" >placed</span> <span class="badge badge-secondary" >return_pending</span> <span class="badge badge-secondary" >returned</span> <span class="badge badge-secondary" >shipped</span>.
+                </span>
+            </li>
+    
+            
+        
+        <li style="list-style-type:none;" >
+                <hr class="mt-1 mb-1" >
+                    
+                </hr>
+            </li>
+    
+            
+        
+        <li >
+                <span >
+                    values must never be null.
+                </span>
+            </li>
+    
+            
+        
+        <li style="list-style-type:none;" >
+                <hr class="mt-1 mb-1" >
+                    
+                </hr>
+            </li>
+    
+            
+        
+        <li >
+                <span >
+                    value types must belong to this set: <span class="badge badge-secondary" >CHAR</span> <span class="badge badge-secondary" >NCHAR</span> <span class="badge badge-secondary" >VARCHAR</span> <span class="badge badge-secondary" >NVARCHAR</span> <span class="badge badge-secondary" >TEXT</span> <span class="badge badge-secondary" >NTEXT</span> <span class="badge badge-secondary" >STRING</span> <span class="badge badge-secondary" >StringType</span> <span class="badge badge-secondary" >string</span> <span class="badge badge-secondary" >str</span> <span class="badge badge-secondary" >object</span> <span class="badge badge-secondary" >dtype('O')</span>.
+                </span>
+            </li>
+    
+            
+        
+        <li style="list-style-type:none;" >
+                <hr class="mt-1 mb-1" >
+                    
+                </hr>
+            </li>
+    
+</ul>
+
+</div>
+        
+    </div>
+</div>
+        
+          <div id="section-9" class="ge-section container-fluid mb-1 pb-1 pl-sm-3 px-0">
+    <div class="row" >
+        
+
+<div id="section-9-content-block-1" class="col-12" >
+
+    <div id="section-9-content-block-1-header" class="alert alert-secondary" >
+        <div>
+          
+                <h5 class="m-0" >
+                    payment_finalized_date
+                </h5>
+            
+        </div>
+      
+    </div>
+
+</div>
+        
+
+<div id="section-9-content-block-2" class="col-12" >
+
+    
+
+<ul id="section-9-content-block-2-body" >
+    
+            
+        
+        <li >
+                <span >
+                    values must never be null.
+                </span>
+            </li>
+    
+            
+        
+        <li style="list-style-type:none;" >
+                <hr class="mt-1 mb-1" >
+                    
+                </hr>
+            </li>
+    
+            
+        
+        <li >
+                <span >
+                    value types must belong to this set: <span class="badge badge-secondary" >DATE</span> <span class="badge badge-secondary" >TIME</span> <span class="badge badge-secondary" >DATETIME</span> <span class="badge badge-secondary" >DATETIME2</span> <span class="badge badge-secondary" >DATETIME64</span> <span class="badge badge-secondary" >SMALLDATETIME</span> <span class="badge badge-secondary" >DATETIMEOFFSET</span> <span class="badge badge-secondary" >TIMESTAMP</span> <span class="badge badge-secondary" >Timestamp</span> <span class="badge badge-secondary" >TimestampType</span> <span class="badge badge-secondary" >DateType</span> <span class="badge badge-secondary" >datetime64</span> <span class="badge badge-secondary" >datetime64[ns]</span> <span class="badge badge-secondary" >timedelta[ns]</span> <span class="badge badge-secondary" ><M8[ns]</span>.
+                </span>
+            </li>
+    
+            
+        
+        <li style="list-style-type:none;" >
+                <hr class="mt-1 mb-1" >
+                    
+                </hr>
+            </li>
+    
+</ul>
+
+</div>
+        
+    </div>
+</div>
+        
+          <div id="section-10" class="ge-section container-fluid mb-1 pb-1 pl-sm-3 px-0">
+    <div class="row" >
+        
+
+<div id="section-10-content-block-1" class="col-12" >
+
+    <div id="section-10-content-block-1-header" class="alert alert-secondary" >
+        <div>
+          
+                <h5 class="m-0" >
+                    total_amount_paid
+                </h5>
+            
+        </div>
+      
+    </div>
+
+</div>
+        
+
+<div id="section-10-content-block-2" class="col-12" >
+
+    
+
+<ul id="section-10-content-block-2-body" >
+    
+            
+        
+        <li >
+                <span >
+                    minimum value must be greater than or equal to <span class="badge badge-secondary" >0.0</span> and less than or equal to <span class="badge badge-secondary" >0.0</span>.
+                </span>
+            </li>
+    
+            
+        
+        <li style="list-style-type:none;" >
+                <hr class="mt-1 mb-1" >
+                    
+                </hr>
+            </li>
+    
+            
+        
+        <li >
+                <span >
+                    quantiles must be within the following value ranges.
+                </span>
+            </li>
+    
+            
+        
+        <li style="list-style-type:none;" >
+
+
+
+<table
+  id="section-10-content-block-2-body"
+  class="table table-sm table-unbordered col-4 mt-2" 
+  data-toggle="table"
+  
+>
+    
+    
+    
+      
+    
+      <thead >
+        <tr>
+            
+                
+                <th
+                  
+                >
+                  Quantile
+                </th>
+            
+                
+                <th
+                  
+                >
+                  Min Value
+                </th>
+            
+                
+                <th
+                  
+                >
+                  Max Value
+                </th>
+            
+        </tr>
+      </thead>
+
+    <tbody>
+      <tr>
+          <td id="section-10-content-block-2-cell-1-1" ><div class="show-scrollbars">0.05</div></td><td id="section-10-content-block-2-cell-1-2" ><div class="show-scrollbars">2.0</div></td><td id="section-10-content-block-2-cell-1-3" ><div class="show-scrollbars">2.0</div></td></tr><tr>
+          <td id="section-10-content-block-2-cell-2-1" ><div class="show-scrollbars">Q1</div></td><td id="section-10-content-block-2-cell-2-2" ><div class="show-scrollbars">8.0</div></td><td id="section-10-content-block-2-cell-2-3" ><div class="show-scrollbars">8.0</div></td></tr><tr>
+          <td id="section-10-content-block-2-cell-3-1" ><div class="show-scrollbars">Median</div></td><td id="section-10-content-block-2-cell-3-2" ><div class="show-scrollbars">17.0</div></td><td id="section-10-content-block-2-cell-3-3" ><div class="show-scrollbars">17.0</div></td></tr><tr>
+          <td id="section-10-content-block-2-cell-4-1" ><div class="show-scrollbars">Q3</div></td><td id="section-10-content-block-2-cell-4-2" ><div class="show-scrollbars">24.0</div></td><td id="section-10-content-block-2-cell-4-3" ><div class="show-scrollbars">24.0</div></td></tr><tr>
+          <td id="section-10-content-block-2-cell-5-1" ><div class="show-scrollbars">0.95</div></td><td id="section-10-content-block-2-cell-5-2" ><div class="show-scrollbars">30.0</div></td><td id="section-10-content-block-2-cell-5-3" ><div class="show-scrollbars">30.0</div></td></tr></tbody>
+</table></li>
+    
+            
+        
+        <li style="list-style-type:none;" >
+                <hr class="mt-1 mb-1" >
+                    
+                </hr>
+            </li>
+    
+            
+        
+        <li >
+                <span >
+                    values must never be null.
+                </span>
+            </li>
+    
+            
+        
+        <li style="list-style-type:none;" >
+                <hr class="mt-1 mb-1" >
+                    
+                </hr>
+            </li>
+    
+            
+        
+        <li >
+                <span >
+                    value types must belong to this set: <span class="badge badge-secondary" >FLOAT</span> <span class="badge badge-secondary" >FLOAT4</span> <span class="badge badge-secondary" >FLOAT8</span> <span class="badge badge-secondary" >FLOAT64</span> <span class="badge badge-secondary" >DOUBLE</span> <span class="badge badge-secondary" >DOUBLE_PRECISION</span> <span class="badge badge-secondary" >NUMERIC</span> <span class="badge badge-secondary" >FloatType</span> <span class="badge badge-secondary" >DoubleType</span> <span class="badge badge-secondary" >float</span> <span class="badge badge-secondary" >float_</span> <span class="badge badge-secondary" >float16</span> <span class="badge badge-secondary" >float32</span> <span class="badge badge-secondary" >float64</span> <span class="badge badge-secondary" >number</span> <span class="badge badge-secondary" >DECIMAL</span> <span class="badge badge-secondary" >REAL</span>.
                 </span>
             </li>
     

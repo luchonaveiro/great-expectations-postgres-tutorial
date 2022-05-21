@@ -595,7 +595,7 @@ $(function() {
         <p>To automatically generate a notebook that does this run:</p>
         <div class="input-group mb-3">
           
-            <input type="text" class="form-control edit-command" readonly value="great_expectations suite edit jaffle_shop.orders.warning">
+            <input type="text" class="form-control edit-command" readonly value="great_expectations suite edit dev.fct_customer_orders.warning">
           
             <div class="input-group-append">
                 <button class="btn btn-primary copy-edit-command" type="button"><i class="far fa-clipboard"></i> Copy</button>
@@ -622,7 +622,7 @@ $(function() {
         <a href="../../../../../../index.html">
           <img
             class="NO-CACHE"
-            src="https://great-expectations-web-assets.s3.us-east-2.amazonaws.com/logo-long.png?d=20220518T231227.631698Z&dataContextId=853ff521-99df-4e9e-bb0c-c9e52c1816d0"
+            src="https://great-expectations-web-assets.s3.us-east-2.amazonaws.com/logo-long.png?d=20220518T232514.401301Z&dataContextId=853ff521-99df-4e9e-bb0c-c9e52c1816d0"
             alt="Great Expectations"
             style="width: auto; height: 50px"
           />
@@ -631,7 +631,7 @@ $(function() {
       
         <ol class="ge-breadcrumbs breadcrumb d-md-inline-flex bg-light ml-2 mr-0 mt-0 mb-0 pt-0 pb-0 d-none">
             <li class="ge-breadcrumbs-item breadcrumb-item"><a href="../../../../../../index.html">Home</a></li>
-            <li class="ge-breadcrumbs-item breadcrumb-item active" aria-current="page">Validations / jaffle_shop.orders.warning / jaffle_shop.orders / __none__ / 2022-05-18T14:48:51Z</li>
+            <li class="ge-breadcrumbs-item breadcrumb-item active" aria-current="page">Validations / dev.fct_customer_orders.warning / dev.fct_customer_orders / 20220518-202513-my-run-name-template / 2022-05-18T20:25:13Z</li>
         </ol>
       
     </nav>
@@ -761,7 +761,7 @@ $(function() {
             <li class="nav-item col-12">
               <a class="nav-link ge-navigation-sidebar-link ml-1" href="#section-3"
                  style="white-space: normal; word-break: break-all;overflow-wrap: normal;">
-                id
+                customer_first_name
               </a>
             </li>
           
@@ -770,7 +770,7 @@ $(function() {
             <li class="nav-item col-12">
               <a class="nav-link ge-navigation-sidebar-link ml-1" href="#section-4"
                  style="white-space: normal; word-break: break-all;overflow-wrap: normal;">
-                user_id
+                customer_id
               </a>
             </li>
           
@@ -779,7 +779,7 @@ $(function() {
             <li class="nav-item col-12">
               <a class="nav-link ge-navigation-sidebar-link ml-1" href="#section-5"
                  style="white-space: normal; word-break: break-all;overflow-wrap: normal;">
-                order_date
+                customer_last_name
               </a>
             </li>
           
@@ -788,7 +788,7 @@ $(function() {
             <li class="nav-item col-12">
               <a class="nav-link ge-navigation-sidebar-link ml-1" href="#section-6"
                  style="white-space: normal; word-break: break-all;overflow-wrap: normal;">
-                status
+                customer_lifetime_value
               </a>
             </li>
           
@@ -797,7 +797,43 @@ $(function() {
             <li class="nav-item col-12">
               <a class="nav-link ge-navigation-sidebar-link ml-1" href="#section-7"
                  style="white-space: normal; word-break: break-all;overflow-wrap: normal;">
-                _etl_loaded_at
+                order_id
+              </a>
+            </li>
+          
+        
+          
+            <li class="nav-item col-12">
+              <a class="nav-link ge-navigation-sidebar-link ml-1" href="#section-8"
+                 style="white-space: normal; word-break: break-all;overflow-wrap: normal;">
+                order_placed_at
+              </a>
+            </li>
+          
+        
+          
+            <li class="nav-item col-12">
+              <a class="nav-link ge-navigation-sidebar-link ml-1" href="#section-9"
+                 style="white-space: normal; word-break: break-all;overflow-wrap: normal;">
+                order_status
+              </a>
+            </li>
+          
+        
+          
+            <li class="nav-item col-12">
+              <a class="nav-link ge-navigation-sidebar-link ml-1" href="#section-10"
+                 style="white-space: normal; word-break: break-all;overflow-wrap: normal;">
+                payment_finalized_date
+              </a>
+            </li>
+          
+        
+          
+            <li class="nav-item col-12">
+              <a class="nav-link ge-navigation-sidebar-link ml-1" href="#section-11"
+                 style="white-space: normal; word-break: break-all;overflow-wrap: normal;">
+                total_amount_paid
               </a>
             </li>
           
@@ -830,7 +866,7 @@ $(function() {
         <div id="section-1-content-block-1-subheader" >
           
                 <span class="mb-0 mt-1" >
-                    <span class="h6" >Expectation Suite:</span> <a href="../../../../../../expectations/jaffle_shop/orders/warning.html" >jaffle_shop.orders.warning</a><br> Data asset: jaffle_shop.orders<br> <span class="h6" >Status:</span> <i class="fas fa-check-circle text-success" aria-hidden="true"></i> Succeeded
+                    <span class="h6" >Expectation Suite:</span> <a href="../../../../../../expectations/dev/fct_customer_orders/warning.html" >dev.fct_customer_orders.warning</a><br> Data asset: dev.fct_customer_orders<br> <span class="h6" >Status:</span> <i class="fas fa-check-circle text-success" aria-hidden="true"></i> Succeeded
                 </span>
             
         </div>
@@ -893,7 +929,7 @@ $(function() {
 
     <tbody>
       <tr>
-          <td id="section-1-content-block-2-cell-1-1" ><div class="show-scrollbars">Evaluated Expectations</div></td><td id="section-1-content-block-2-cell-1-2" ><div class="show-scrollbars">31</div></td></tr><tr>
+          <td id="section-1-content-block-2-cell-1-1" ><div class="show-scrollbars">Evaluated Expectations</div></td><td id="section-1-content-block-2-cell-1-2" ><div class="show-scrollbars">26</div></td></tr><tr>
           <td id="section-1-content-block-2-cell-2-1" ><div class="show-scrollbars">Success Percent</div></td><td id="section-1-content-block-2-cell-2-2" ><div class="show-scrollbars">100%</div></td></tr></tbody>
 </table>
 
@@ -920,13 +956,13 @@ $(function() {
 <div id="section-1-content-block-3-parent" >
   
     <p class="m-0">
-      <a data-toggle="collapse" href="#section-1-content-block-3-collapse-body-7aefe8f8-0dd6-448a-8f8f-970bf0d55a28" aria-expanded="false" aria-controls="section-1-content-block-3-collapse-body" >
+      <a data-toggle="collapse" href="#section-1-content-block-3-collapse-body-aca5ade9-1829-4133-a7b3-fc315e4f66c2" aria-expanded="false" aria-controls="section-1-content-block-3-collapse-body" >
         Show more info...
       </a>
     </p>
   
 
-  <div id=section-1-content-block-3-collapse-body-7aefe8f8-0dd6-448a-8f8f-970bf0d55a28 class="card card-body collapse m-2" >
+  <div id=section-1-content-block-3-collapse-body-aca5ade9-1829-4133-a7b3-fc315e4f66c2 class="card card-body collapse m-2" >
     
     
     
@@ -984,8 +1020,8 @@ $(function() {
     <tbody>
       <tr>
           <td id="section-1-content-block-3-collapse-item-1-cell-1-1" ><div class="show-scrollbars">Great Expectations Version</div></td><td id="section-1-content-block-3-collapse-item-1-cell-1-2" ><div class="show-scrollbars">0.15.5</div></td></tr><tr>
-          <td id="section-1-content-block-3-collapse-item-1-cell-2-1" ><div class="show-scrollbars">Run Name</div></td><td id="section-1-content-block-3-collapse-item-1-cell-2-2" ><div class="show-scrollbars">__none__</div></td></tr><tr>
-          <td id="section-1-content-block-3-collapse-item-1-cell-3-1" ><div class="show-scrollbars">Run Time</div></td><td id="section-1-content-block-3-collapse-item-1-cell-3-2" ><div class="show-scrollbars">2022-05-18T14:48:51Z</div></td></tr></tbody>
+          <td id="section-1-content-block-3-collapse-item-1-cell-2-1" ><div class="show-scrollbars">Run Name</div></td><td id="section-1-content-block-3-collapse-item-1-cell-2-2" ><div class="show-scrollbars">20220518-202513-my-run-name-template</div></td></tr><tr>
+          <td id="section-1-content-block-3-collapse-item-1-cell-3-1" ><div class="show-scrollbars">Run Time</div></td><td id="section-1-content-block-3-collapse-item-1-cell-3-2" ><div class="show-scrollbars">2022-05-18T20:25:13Z</div></td></tr></tbody>
 </table>
     
       
@@ -1047,7 +1083,7 @@ $(function() {
                 </span>
             </div></td><td id="section-1-content-block-3-collapse-item-2-cell-1-2" class="" ><div class="show-scrollbars">
                 <span >
-                    <span style="word-break:break-all;" >20220518T174851.557911Z</span>
+                    <span style="word-break:break-all;" >20220518T232513.340605Z</span>
                 </span>
             </div></td></tr></tbody>
 </table>
@@ -1148,7 +1184,7 @@ $(function() {
                 </span>
             </div></td><td id="section-1-content-block-3-collapse-item-3-cell-2-2" class="" ><div class="show-scrollbars">
                 <span >
-                    <span style="word-break:break-all;" >jaffle_shop.orders</span>
+                    <span style="word-break:break-all;" >dev.fct_customer_orders</span>
                 </span>
             </div></td></tr><tr>
           <td id="section-1-content-block-3-collapse-item-3-cell-3-1" class="pr-3" ><div class="show-scrollbars">
@@ -1157,7 +1193,7 @@ $(function() {
                 </span>
             </div></td><td id="section-1-content-block-3-collapse-item-3-cell-3-2" class="" ><div class="show-scrollbars">
                 <span >
-                    <span style="word-break:break-all;" >jaffle_shop</span>
+                    <span style="word-break:break-all;" >dev</span>
                 </span>
             </div></td></tr><tr>
           <td id="section-1-content-block-3-collapse-item-3-cell-4-1" class="pr-3" ><div class="show-scrollbars">
@@ -1166,7 +1202,7 @@ $(function() {
                 </span>
             </div></td><td id="section-1-content-block-3-collapse-item-3-cell-4-2" class="" ><div class="show-scrollbars">
                 <span >
-                    <span style="word-break:break-all;" >orders</span>
+                    <span style="word-break:break-all;" >fct_customer_orders</span>
                 </span>
             </div></td></tr><tr>
           <td id="section-1-content-block-3-collapse-item-3-cell-5-1" class="pr-3" ><div class="show-scrollbars">
@@ -1260,9 +1296,9 @@ $(function() {
                 </span>
             </div></td><td id="section-2-content-block-2-cell-1-2" ><div class="show-scrollbars">
                 <span >
-                    Must have these columns in this order: <span class="badge badge-secondary" >id</span>, <span class="badge badge-secondary" >user_id</span>, <span class="badge badge-secondary" >order_date</span>, <span class="badge badge-secondary" >status</span>, <span class="badge badge-secondary" >_etl_loaded_at</span>
+                    Must have these columns in this order: <span class="badge badge-secondary" >order_id</span>, <span class="badge badge-secondary" >customer_id</span>, <span class="badge badge-secondary" >order_placed_at</span>, <span class="badge badge-secondary" >order_status</span>, <span class="badge badge-secondary" >total_amount_paid</span>, <span class="badge badge-secondary" >payment_finalized_date</span>, <span class="badge badge-secondary" >customer_first_name</span>, <span class="badge badge-secondary" >customer_last_name</span>, <span class="badge badge-secondary" >transaction_seq</span>, <span class="badge badge-secondary" >customer_sales_seq</span>, <span class="badge badge-secondary" >nvsr</span>, <span class="badge badge-secondary" >customer_lifetime_value</span>, <span class="badge badge-secondary" >fdos</span>
                 </span>
-            </div></td><td id="section-2-content-block-2-cell-1-3" ><div class="show-scrollbars">['id', 'user_id', 'order_date', 'status', '_etl_loaded_at']</div></td></tr><tr>
+            </div></td><td id="section-2-content-block-2-cell-1-3" ><div class="show-scrollbars">['order_id', 'customer_id', 'order_placed_at', 'order_status', 'total_amount_paid', 'payment_finalized_date', 'customer_first_name', 'customer_last_name', 'transaction_seq', 'customer_sales_seq', 'nvsr', 'customer_lifetime_value', 'fdos']</div></td></tr><tr>
           <td id="section-2-content-block-2-cell-2-1" class="hide-succeeded-validation-target-child" ><div class="show-scrollbars">
                 <span >
                     <i class="fas fa-check-circle text-success" ></i>
@@ -1289,7 +1325,7 @@ $(function() {
         <div>
           
                 <h5 class="m-0" >
-                    id
+                    customer_first_name
                 </h5>
             
         </div>
@@ -1351,163 +1387,18 @@ $(function() {
                 </span>
             </div></td><td id="section-3-content-block-2-cell-1-2" ><div class="show-scrollbars">
                 <span >
-                    minimum value must be greater than or equal to <span class="badge badge-secondary" >1</span> and less than or equal to <span class="badge badge-secondary" >1</span>.
+                    values must never be null.
                 </span>
-            </div></td><td id="section-3-content-block-2-cell-1-3" ><div class="show-scrollbars">1</div></td></tr><tr>
+            </div></td><td id="section-3-content-block-2-cell-1-3" ><div class="show-scrollbars">100% not null</div></td></tr><tr>
           <td id="section-3-content-block-2-cell-2-1" class="hide-succeeded-validation-target-child" ><div class="show-scrollbars">
                 <span >
                     <i class="fas fa-check-circle text-success" ></i>
                 </span>
             </div></td><td id="section-3-content-block-2-cell-2-2" ><div class="show-scrollbars">
                 <span >
-                    maximum value must be greater than or equal to <span class="badge badge-secondary" >99</span> and less than or equal to <span class="badge badge-secondary" >99</span>.
+                    value types must belong to this set: <span class="badge badge-secondary" >CHAR</span> <span class="badge badge-secondary" >NCHAR</span> <span class="badge badge-secondary" >VARCHAR</span> <span class="badge badge-secondary" >NVARCHAR</span> <span class="badge badge-secondary" >TEXT</span> <span class="badge badge-secondary" >NTEXT</span> <span class="badge badge-secondary" >STRING</span> <span class="badge badge-secondary" >StringType</span> <span class="badge badge-secondary" >string</span> <span class="badge badge-secondary" >str</span> <span class="badge badge-secondary" >object</span> <span class="badge badge-secondary" >dtype('O')</span>.
                 </span>
-            </div></td><td id="section-3-content-block-2-cell-2-3" ><div class="show-scrollbars">99</div></td></tr><tr>
-          <td id="section-3-content-block-2-cell-3-1" class="hide-succeeded-validation-target-child" ><div class="show-scrollbars">
-                <span >
-                    <i class="fas fa-check-circle text-success" ></i>
-                </span>
-            </div></td><td id="section-3-content-block-2-cell-3-2" ><div class="show-scrollbars">
-                <span >
-                    mean must be greater than or equal to <span class="badge badge-secondary" >50.0</span> and less than or equal to <span class="badge badge-secondary" >50.0</span>.
-                </span>
-            </div></td><td id="section-3-content-block-2-cell-3-3" ><div class="show-scrollbars">50</div></td></tr><tr>
-          <td id="section-3-content-block-2-cell-4-1" class="hide-succeeded-validation-target-child" ><div class="show-scrollbars">
-                <span >
-                    <i class="fas fa-check-circle text-success" ></i>
-                </span>
-            </div></td><td id="section-3-content-block-2-cell-4-2" ><div class="show-scrollbars">
-                <span >
-                    median must be greater than or equal to <span class="badge badge-secondary" >50</span> and less than or equal to <span class="badge badge-secondary" >50</span>.
-                </span>
-            </div></td><td id="section-3-content-block-2-cell-4-3" ><div class="show-scrollbars">50</div></td></tr><tr>
-          <td id="section-3-content-block-2-cell-5-1" class="hide-succeeded-validation-target-child" ><div class="show-scrollbars">
-                <span >
-                    <i class="fas fa-check-circle text-success" ></i>
-                </span>
-            </div></td><td id="section-3-content-block-2-cell-5-2" ><div class="show-scrollbars">
-                <span >
-                    quantiles must be within the following value ranges.
-                </span>
-            
-
-
-
-<table
-  id="section-3-content-block-2-cell-5-2-content-1-body"
-  class="table table-sm table-unbordered col-4 mt-2" 
-  data-toggle="table"
-  
->
-    
-    
-    
-      
-    
-      <thead >
-        <tr>
-            
-                
-                <th
-                  
-                >
-                  Quantile
-                </th>
-            
-                
-                <th
-                  
-                >
-                  Min Value
-                </th>
-            
-                
-                <th
-                  
-                >
-                  Max Value
-                </th>
-            
-        </tr>
-      </thead>
-
-    <tbody>
-      <tr>
-          <td id="section-3-content-block-2-cell-5-2-content-1-cell-1-1" ><div class="show-scrollbars">0.05</div></td><td id="section-3-content-block-2-cell-5-2-content-1-cell-1-2" ><div class="show-scrollbars">5</div></td><td id="section-3-content-block-2-cell-5-2-content-1-cell-1-3" ><div class="show-scrollbars">5</div></td></tr><tr>
-          <td id="section-3-content-block-2-cell-5-2-content-1-cell-2-1" ><div class="show-scrollbars">Q1</div></td><td id="section-3-content-block-2-cell-5-2-content-1-cell-2-2" ><div class="show-scrollbars">25</div></td><td id="section-3-content-block-2-cell-5-2-content-1-cell-2-3" ><div class="show-scrollbars">25</div></td></tr><tr>
-          <td id="section-3-content-block-2-cell-5-2-content-1-cell-3-1" ><div class="show-scrollbars">Median</div></td><td id="section-3-content-block-2-cell-5-2-content-1-cell-3-2" ><div class="show-scrollbars">50</div></td><td id="section-3-content-block-2-cell-5-2-content-1-cell-3-3" ><div class="show-scrollbars">50</div></td></tr><tr>
-          <td id="section-3-content-block-2-cell-5-2-content-1-cell-4-1" ><div class="show-scrollbars">Q3</div></td><td id="section-3-content-block-2-cell-5-2-content-1-cell-4-2" ><div class="show-scrollbars">75</div></td><td id="section-3-content-block-2-cell-5-2-content-1-cell-4-3" ><div class="show-scrollbars">75</div></td></tr><tr>
-          <td id="section-3-content-block-2-cell-5-2-content-1-cell-5-1" ><div class="show-scrollbars">0.95</div></td><td id="section-3-content-block-2-cell-5-2-content-1-cell-5-2" ><div class="show-scrollbars">95</div></td><td id="section-3-content-block-2-cell-5-2-content-1-cell-5-3" ><div class="show-scrollbars">95</div></td></tr></tbody>
-</table></div></td><td id="section-3-content-block-2-cell-5-3" ><div class="show-scrollbars">
-
-
-
-<table
-  id="section-3-content-block-2-cell-5-3-content-body"
-  class="table table-sm table-unbordered col-4" 
-  data-toggle="table"
-  
->
-    
-    
-    
-      
-    
-      <thead >
-        <tr>
-            
-                
-                <th
-                  
-                >
-                  Quantile
-                </th>
-            
-                
-                <th
-                  
-                >
-                  Value
-                </th>
-            
-        </tr>
-      </thead>
-
-    <tbody>
-      <tr>
-          <td id="section-3-content-block-2-cell-5-3-content-cell-1-1" ><div class="show-scrollbars">0.05</div></td><td id="section-3-content-block-2-cell-5-3-content-cell-1-2" ><div class="show-scrollbars">5</div></td></tr><tr>
-          <td id="section-3-content-block-2-cell-5-3-content-cell-2-1" ><div class="show-scrollbars">Q1</div></td><td id="section-3-content-block-2-cell-5-3-content-cell-2-2" ><div class="show-scrollbars">25</div></td></tr><tr>
-          <td id="section-3-content-block-2-cell-5-3-content-cell-3-1" ><div class="show-scrollbars">Median</div></td><td id="section-3-content-block-2-cell-5-3-content-cell-3-2" ><div class="show-scrollbars">50</div></td></tr><tr>
-          <td id="section-3-content-block-2-cell-5-3-content-cell-4-1" ><div class="show-scrollbars">Q3</div></td><td id="section-3-content-block-2-cell-5-3-content-cell-4-2" ><div class="show-scrollbars">75</div></td></tr><tr>
-          <td id="section-3-content-block-2-cell-5-3-content-cell-5-1" ><div class="show-scrollbars">0.95</div></td><td id="section-3-content-block-2-cell-5-3-content-cell-5-2" ><div class="show-scrollbars">95</div></td></tr></tbody>
-</table></div></td></tr><tr>
-          <td id="section-3-content-block-2-cell-6-1" class="hide-succeeded-validation-target-child" ><div class="show-scrollbars">
-                <span >
-                    <i class="fas fa-check-circle text-success" ></i>
-                </span>
-            </div></td><td id="section-3-content-block-2-cell-6-2" ><div class="show-scrollbars">
-                <span >
-                    values must never be null.
-                </span>
-            </div></td><td id="section-3-content-block-2-cell-6-3" ><div class="show-scrollbars">100% not null</div></td></tr><tr>
-          <td id="section-3-content-block-2-cell-7-1" class="hide-succeeded-validation-target-child" ><div class="show-scrollbars">
-                <span >
-                    <i class="fas fa-check-circle text-success" ></i>
-                </span>
-            </div></td><td id="section-3-content-block-2-cell-7-2" ><div class="show-scrollbars">
-                <span >
-                    fraction of unique values must be exactly <span class="badge badge-secondary" >1.0</span>.
-                </span>
-            </div></td><td id="section-3-content-block-2-cell-7-3" ><div class="show-scrollbars">1</div></td></tr><tr>
-          <td id="section-3-content-block-2-cell-8-1" class="hide-succeeded-validation-target-child" ><div class="show-scrollbars">
-                <span >
-                    <i class="fas fa-check-circle text-success" ></i>
-                </span>
-            </div></td><td id="section-3-content-block-2-cell-8-2" ><div class="show-scrollbars">
-                <span >
-                    value types must belong to this set: <span class="badge badge-secondary" >INTEGER</span> <span class="badge badge-secondary" >integer</span> <span class="badge badge-secondary" >int</span> <span class="badge badge-secondary" >int_</span> <span class="badge badge-secondary" >int8</span> <span class="badge badge-secondary" >int16</span> <span class="badge badge-secondary" >int32</span> <span class="badge badge-secondary" >int64</span> <span class="badge badge-secondary" >uint8</span> <span class="badge badge-secondary" >uint16</span> <span class="badge badge-secondary" >uint32</span> <span class="badge badge-secondary" >uint64</span> <span class="badge badge-secondary" >Int8Dtype</span> <span class="badge badge-secondary" >Int16Dtype</span> <span class="badge badge-secondary" >Int32Dtype</span> <span class="badge badge-secondary" >Int64Dtype</span> <span class="badge badge-secondary" >UInt8Dtype</span> <span class="badge badge-secondary" >UInt16Dtype</span> <span class="badge badge-secondary" >UInt32Dtype</span> <span class="badge badge-secondary" >UInt64Dtype</span> <span class="badge badge-secondary" >INT</span> <span class="badge badge-secondary" >INTEGER</span> <span class="badge badge-secondary" >INT64</span> <span class="badge badge-secondary" >TINYINT</span> <span class="badge badge-secondary" >BYTEINT</span> <span class="badge badge-secondary" >SMALLINT</span> <span class="badge badge-secondary" >BIGINT</span> <span class="badge badge-secondary" >IntegerType</span> <span class="badge badge-secondary" >LongType</span>.
-                </span>
-            </div></td><td id="section-3-content-block-2-cell-8-3" ><div class="show-scrollbars">INTEGER</div></td></tr></tbody>
+            </div></td><td id="section-3-content-block-2-cell-2-3" ><div class="show-scrollbars">VARCHAR</div></td></tr></tbody>
 </table>
 
 </div>
@@ -1525,7 +1416,7 @@ $(function() {
         <div>
           
                 <h5 class="m-0" >
-                    user_id
+                    customer_id
                 </h5>
             
         </div>
@@ -1587,163 +1478,18 @@ $(function() {
                 </span>
             </div></td><td id="section-4-content-block-2-cell-1-2" ><div class="show-scrollbars">
                 <span >
-                    minimum value must be greater than or equal to <span class="badge badge-secondary" >1</span> and less than or equal to <span class="badge badge-secondary" >1</span>.
+                    values must never be null.
                 </span>
-            </div></td><td id="section-4-content-block-2-cell-1-3" ><div class="show-scrollbars">1</div></td></tr><tr>
+            </div></td><td id="section-4-content-block-2-cell-1-3" ><div class="show-scrollbars">100% not null</div></td></tr><tr>
           <td id="section-4-content-block-2-cell-2-1" class="hide-succeeded-validation-target-child" ><div class="show-scrollbars">
                 <span >
                     <i class="fas fa-check-circle text-success" ></i>
                 </span>
             </div></td><td id="section-4-content-block-2-cell-2-2" ><div class="show-scrollbars">
                 <span >
-                    maximum value must be greater than or equal to <span class="badge badge-secondary" >99</span> and less than or equal to <span class="badge badge-secondary" >99</span>.
-                </span>
-            </div></td><td id="section-4-content-block-2-cell-2-3" ><div class="show-scrollbars">99</div></td></tr><tr>
-          <td id="section-4-content-block-2-cell-3-1" class="hide-succeeded-validation-target-child" ><div class="show-scrollbars">
-                <span >
-                    <i class="fas fa-check-circle text-success" ></i>
-                </span>
-            </div></td><td id="section-4-content-block-2-cell-3-2" ><div class="show-scrollbars">
-                <span >
-                    mean must be greater than or equal to <span class="badge badge-secondary" >48.25252525252525</span> and less than or equal to <span class="badge badge-secondary" >48.25252525252525</span>.
-                </span>
-            </div></td><td id="section-4-content-block-2-cell-3-3" ><div class="show-scrollbars">≈48.25252525</div></td></tr><tr>
-          <td id="section-4-content-block-2-cell-4-1" class="hide-succeeded-validation-target-child" ><div class="show-scrollbars">
-                <span >
-                    <i class="fas fa-check-circle text-success" ></i>
-                </span>
-            </div></td><td id="section-4-content-block-2-cell-4-2" ><div class="show-scrollbars">
-                <span >
-                    median must be greater than or equal to <span class="badge badge-secondary" >50</span> and less than or equal to <span class="badge badge-secondary" >50</span>.
-                </span>
-            </div></td><td id="section-4-content-block-2-cell-4-3" ><div class="show-scrollbars">50</div></td></tr><tr>
-          <td id="section-4-content-block-2-cell-5-1" class="hide-succeeded-validation-target-child" ><div class="show-scrollbars">
-                <span >
-                    <i class="fas fa-check-circle text-success" ></i>
-                </span>
-            </div></td><td id="section-4-content-block-2-cell-5-2" ><div class="show-scrollbars">
-                <span >
-                    quantiles must be within the following value ranges.
-                </span>
-            
-
-
-
-<table
-  id="section-4-content-block-2-cell-5-2-content-1-body"
-  class="table table-sm table-unbordered col-4 mt-2" 
-  data-toggle="table"
-  
->
-    
-    
-    
-      
-    
-      <thead >
-        <tr>
-            
-                
-                <th
-                  
-                >
-                  Quantile
-                </th>
-            
-                
-                <th
-                  
-                >
-                  Min Value
-                </th>
-            
-                
-                <th
-                  
-                >
-                  Max Value
-                </th>
-            
-        </tr>
-      </thead>
-
-    <tbody>
-      <tr>
-          <td id="section-4-content-block-2-cell-5-2-content-1-cell-1-1" ><div class="show-scrollbars">0.05</div></td><td id="section-4-content-block-2-cell-5-2-content-1-cell-1-2" ><div class="show-scrollbars">3</div></td><td id="section-4-content-block-2-cell-5-2-content-1-cell-1-3" ><div class="show-scrollbars">3</div></td></tr><tr>
-          <td id="section-4-content-block-2-cell-5-2-content-1-cell-2-1" ><div class="show-scrollbars">Q1</div></td><td id="section-4-content-block-2-cell-5-2-content-1-cell-2-2" ><div class="show-scrollbars">26</div></td><td id="section-4-content-block-2-cell-5-2-content-1-cell-2-3" ><div class="show-scrollbars">26</div></td></tr><tr>
-          <td id="section-4-content-block-2-cell-5-2-content-1-cell-3-1" ><div class="show-scrollbars">Median</div></td><td id="section-4-content-block-2-cell-5-2-content-1-cell-3-2" ><div class="show-scrollbars">50</div></td><td id="section-4-content-block-2-cell-5-2-content-1-cell-3-3" ><div class="show-scrollbars">50</div></td></tr><tr>
-          <td id="section-4-content-block-2-cell-5-2-content-1-cell-4-1" ><div class="show-scrollbars">Q3</div></td><td id="section-4-content-block-2-cell-5-2-content-1-cell-4-2" ><div class="show-scrollbars">70</div></td><td id="section-4-content-block-2-cell-5-2-content-1-cell-4-3" ><div class="show-scrollbars">70</div></td></tr><tr>
-          <td id="section-4-content-block-2-cell-5-2-content-1-cell-5-1" ><div class="show-scrollbars">0.95</div></td><td id="section-4-content-block-2-cell-5-2-content-1-cell-5-2" ><div class="show-scrollbars">93</div></td><td id="section-4-content-block-2-cell-5-2-content-1-cell-5-3" ><div class="show-scrollbars">93</div></td></tr></tbody>
-</table></div></td><td id="section-4-content-block-2-cell-5-3" ><div class="show-scrollbars">
-
-
-
-<table
-  id="section-4-content-block-2-cell-5-3-content-body"
-  class="table table-sm table-unbordered col-4" 
-  data-toggle="table"
-  
->
-    
-    
-    
-      
-    
-      <thead >
-        <tr>
-            
-                
-                <th
-                  
-                >
-                  Quantile
-                </th>
-            
-                
-                <th
-                  
-                >
-                  Value
-                </th>
-            
-        </tr>
-      </thead>
-
-    <tbody>
-      <tr>
-          <td id="section-4-content-block-2-cell-5-3-content-cell-1-1" ><div class="show-scrollbars">0.05</div></td><td id="section-4-content-block-2-cell-5-3-content-cell-1-2" ><div class="show-scrollbars">3</div></td></tr><tr>
-          <td id="section-4-content-block-2-cell-5-3-content-cell-2-1" ><div class="show-scrollbars">Q1</div></td><td id="section-4-content-block-2-cell-5-3-content-cell-2-2" ><div class="show-scrollbars">26</div></td></tr><tr>
-          <td id="section-4-content-block-2-cell-5-3-content-cell-3-1" ><div class="show-scrollbars">Median</div></td><td id="section-4-content-block-2-cell-5-3-content-cell-3-2" ><div class="show-scrollbars">50</div></td></tr><tr>
-          <td id="section-4-content-block-2-cell-5-3-content-cell-4-1" ><div class="show-scrollbars">Q3</div></td><td id="section-4-content-block-2-cell-5-3-content-cell-4-2" ><div class="show-scrollbars">70</div></td></tr><tr>
-          <td id="section-4-content-block-2-cell-5-3-content-cell-5-1" ><div class="show-scrollbars">0.95</div></td><td id="section-4-content-block-2-cell-5-3-content-cell-5-2" ><div class="show-scrollbars">93</div></td></tr></tbody>
-</table></div></td></tr><tr>
-          <td id="section-4-content-block-2-cell-6-1" class="hide-succeeded-validation-target-child" ><div class="show-scrollbars">
-                <span >
-                    <i class="fas fa-check-circle text-success" ></i>
-                </span>
-            </div></td><td id="section-4-content-block-2-cell-6-2" ><div class="show-scrollbars">
-                <span >
-                    values must never be null.
-                </span>
-            </div></td><td id="section-4-content-block-2-cell-6-3" ><div class="show-scrollbars">100% not null</div></td></tr><tr>
-          <td id="section-4-content-block-2-cell-7-1" class="hide-succeeded-validation-target-child" ><div class="show-scrollbars">
-                <span >
-                    <i class="fas fa-check-circle text-success" ></i>
-                </span>
-            </div></td><td id="section-4-content-block-2-cell-7-2" ><div class="show-scrollbars">
-                <span >
-                    fraction of unique values must be exactly <span class="badge badge-secondary" >0.6262626262626263</span>.
-                </span>
-            </div></td><td id="section-4-content-block-2-cell-7-3" ><div class="show-scrollbars">≈0.6262626263</div></td></tr><tr>
-          <td id="section-4-content-block-2-cell-8-1" class="hide-succeeded-validation-target-child" ><div class="show-scrollbars">
-                <span >
-                    <i class="fas fa-check-circle text-success" ></i>
-                </span>
-            </div></td><td id="section-4-content-block-2-cell-8-2" ><div class="show-scrollbars">
-                <span >
                     value types must belong to this set: <span class="badge badge-secondary" >INTEGER</span> <span class="badge badge-secondary" >integer</span> <span class="badge badge-secondary" >int</span> <span class="badge badge-secondary" >int_</span> <span class="badge badge-secondary" >int8</span> <span class="badge badge-secondary" >int16</span> <span class="badge badge-secondary" >int32</span> <span class="badge badge-secondary" >int64</span> <span class="badge badge-secondary" >uint8</span> <span class="badge badge-secondary" >uint16</span> <span class="badge badge-secondary" >uint32</span> <span class="badge badge-secondary" >uint64</span> <span class="badge badge-secondary" >Int8Dtype</span> <span class="badge badge-secondary" >Int16Dtype</span> <span class="badge badge-secondary" >Int32Dtype</span> <span class="badge badge-secondary" >Int64Dtype</span> <span class="badge badge-secondary" >UInt8Dtype</span> <span class="badge badge-secondary" >UInt16Dtype</span> <span class="badge badge-secondary" >UInt32Dtype</span> <span class="badge badge-secondary" >UInt64Dtype</span> <span class="badge badge-secondary" >INT</span> <span class="badge badge-secondary" >INTEGER</span> <span class="badge badge-secondary" >INT64</span> <span class="badge badge-secondary" >TINYINT</span> <span class="badge badge-secondary" >BYTEINT</span> <span class="badge badge-secondary" >SMALLINT</span> <span class="badge badge-secondary" >BIGINT</span> <span class="badge badge-secondary" >IntegerType</span> <span class="badge badge-secondary" >LongType</span>.
                 </span>
-            </div></td><td id="section-4-content-block-2-cell-8-3" ><div class="show-scrollbars">INTEGER</div></td></tr></tbody>
+            </div></td><td id="section-4-content-block-2-cell-2-3" ><div class="show-scrollbars">INTEGER</div></td></tr></tbody>
 </table>
 
 </div>
@@ -1761,7 +1507,7 @@ $(function() {
         <div>
           
                 <h5 class="m-0" >
-                    order_date
+                    customer_last_name
                 </h5>
             
         </div>
@@ -1823,36 +1569,18 @@ $(function() {
                 </span>
             </div></td><td id="section-5-content-block-2-cell-1-2" ><div class="show-scrollbars">
                 <span >
-                    values must be greater than or equal to <span class="badge badge-secondary" >2018-01-01 00:00:00</span> and less than or equal to <span class="badge badge-secondary" >2018-04-09 00:00:00</span>.
+                    values must never be null.
                 </span>
-            </div></td><td id="section-5-content-block-2-cell-1-3" ><div class="show-scrollbars">0% unexpected</div></td></tr><tr>
+            </div></td><td id="section-5-content-block-2-cell-1-3" ><div class="show-scrollbars">100% not null</div></td></tr><tr>
           <td id="section-5-content-block-2-cell-2-1" class="hide-succeeded-validation-target-child" ><div class="show-scrollbars">
                 <span >
                     <i class="fas fa-check-circle text-success" ></i>
                 </span>
             </div></td><td id="section-5-content-block-2-cell-2-2" ><div class="show-scrollbars">
                 <span >
-                    values must never be null.
+                    value types must belong to this set: <span class="badge badge-secondary" >CHAR</span> <span class="badge badge-secondary" >NCHAR</span> <span class="badge badge-secondary" >VARCHAR</span> <span class="badge badge-secondary" >NVARCHAR</span> <span class="badge badge-secondary" >TEXT</span> <span class="badge badge-secondary" >NTEXT</span> <span class="badge badge-secondary" >STRING</span> <span class="badge badge-secondary" >StringType</span> <span class="badge badge-secondary" >string</span> <span class="badge badge-secondary" >str</span> <span class="badge badge-secondary" >object</span> <span class="badge badge-secondary" >dtype('O')</span>.
                 </span>
-            </div></td><td id="section-5-content-block-2-cell-2-3" ><div class="show-scrollbars">100% not null</div></td></tr><tr>
-          <td id="section-5-content-block-2-cell-3-1" class="hide-succeeded-validation-target-child" ><div class="show-scrollbars">
-                <span >
-                    <i class="fas fa-check-circle text-success" ></i>
-                </span>
-            </div></td><td id="section-5-content-block-2-cell-3-2" ><div class="show-scrollbars">
-                <span >
-                    fraction of unique values must be exactly <span class="badge badge-secondary" >0.696969696969697</span>.
-                </span>
-            </div></td><td id="section-5-content-block-2-cell-3-3" ><div class="show-scrollbars">≈0.696969697</div></td></tr><tr>
-          <td id="section-5-content-block-2-cell-4-1" class="hide-succeeded-validation-target-child" ><div class="show-scrollbars">
-                <span >
-                    <i class="fas fa-check-circle text-success" ></i>
-                </span>
-            </div></td><td id="section-5-content-block-2-cell-4-2" ><div class="show-scrollbars">
-                <span >
-                    value types must belong to this set: <span class="badge badge-secondary" >DATE</span> <span class="badge badge-secondary" >TIME</span> <span class="badge badge-secondary" >DATETIME</span> <span class="badge badge-secondary" >DATETIME2</span> <span class="badge badge-secondary" >DATETIME64</span> <span class="badge badge-secondary" >SMALLDATETIME</span> <span class="badge badge-secondary" >DATETIMEOFFSET</span> <span class="badge badge-secondary" >TIMESTAMP</span> <span class="badge badge-secondary" >Timestamp</span> <span class="badge badge-secondary" >TimestampType</span> <span class="badge badge-secondary" >DateType</span> <span class="badge badge-secondary" >datetime64</span> <span class="badge badge-secondary" >datetime64[ns]</span> <span class="badge badge-secondary" >timedelta[ns]</span> <span class="badge badge-secondary" ><M8[ns]</span>.
-                </span>
-            </div></td><td id="section-5-content-block-2-cell-4-3" ><div class="show-scrollbars">DATE</div></td></tr></tbody>
+            </div></td><td id="section-5-content-block-2-cell-2-3" ><div class="show-scrollbars">VARCHAR</div></td></tr></tbody>
 </table>
 
 </div>
@@ -1870,7 +1598,7 @@ $(function() {
         <div>
           
                 <h5 class="m-0" >
-                    status
+                    customer_lifetime_value
                 </h5>
             
         </div>
@@ -1932,36 +1660,127 @@ $(function() {
                 </span>
             </div></td><td id="section-6-content-block-2-cell-1-2" ><div class="show-scrollbars">
                 <span >
-                    values must belong to this set: <span class="badge badge-secondary" >completed</span> <span class="badge badge-secondary" >placed</span> <span class="badge badge-secondary" >return_pending</span> <span class="badge badge-secondary" >returned</span> <span class="badge badge-secondary" >shipped</span>.
+                    minimum value must be greater than or equal to <span class="badge badge-secondary" >1.0</span> and less than or equal to <span class="badge badge-secondary" >1.0</span>.
                 </span>
-            </div></td><td id="section-6-content-block-2-cell-1-3" ><div class="show-scrollbars">0% unexpected</div></td></tr><tr>
+            </div></td><td id="section-6-content-block-2-cell-1-3" ><div class="show-scrollbars">1</div></td></tr><tr>
           <td id="section-6-content-block-2-cell-2-1" class="hide-succeeded-validation-target-child" ><div class="show-scrollbars">
                 <span >
                     <i class="fas fa-check-circle text-success" ></i>
                 </span>
             </div></td><td id="section-6-content-block-2-cell-2-2" ><div class="show-scrollbars">
                 <span >
-                    values must never be null.
+                    quantiles must be within the following value ranges.
                 </span>
-            </div></td><td id="section-6-content-block-2-cell-2-3" ><div class="show-scrollbars">100% not null</div></td></tr><tr>
+            
+
+
+
+<table
+  id="section-6-content-block-2-cell-2-2-content-1-body"
+  class="table table-sm table-unbordered col-4 mt-2" 
+  data-toggle="table"
+  
+>
+    
+    
+    
+      
+    
+      <thead >
+        <tr>
+            
+                
+                <th
+                  
+                >
+                  Quantile
+                </th>
+            
+                
+                <th
+                  
+                >
+                  Min Value
+                </th>
+            
+                
+                <th
+                  
+                >
+                  Max Value
+                </th>
+            
+        </tr>
+      </thead>
+
+    <tbody>
+      <tr>
+          <td id="section-6-content-block-2-cell-2-2-content-1-cell-1-1" ><div class="show-scrollbars">0.05</div></td><td id="section-6-content-block-2-cell-2-2-content-1-cell-1-2" ><div class="show-scrollbars">2.0</div></td><td id="section-6-content-block-2-cell-2-2-content-1-cell-1-3" ><div class="show-scrollbars">2.0</div></td></tr><tr>
+          <td id="section-6-content-block-2-cell-2-2-content-1-cell-2-1" ><div class="show-scrollbars">Q1</div></td><td id="section-6-content-block-2-cell-2-2-content-1-cell-2-2" ><div class="show-scrollbars">12.0</div></td><td id="section-6-content-block-2-cell-2-2-content-1-cell-2-3" ><div class="show-scrollbars">12.0</div></td></tr><tr>
+          <td id="section-6-content-block-2-cell-2-2-content-1-cell-3-1" ><div class="show-scrollbars">Median</div></td><td id="section-6-content-block-2-cell-2-2-content-1-cell-3-2" ><div class="show-scrollbars">23.0</div></td><td id="section-6-content-block-2-cell-2-2-content-1-cell-3-3" ><div class="show-scrollbars">23.0</div></td></tr><tr>
+          <td id="section-6-content-block-2-cell-2-2-content-1-cell-4-1" ><div class="show-scrollbars">Q3</div></td><td id="section-6-content-block-2-cell-2-2-content-1-cell-4-2" ><div class="show-scrollbars">30.0</div></td><td id="section-6-content-block-2-cell-2-2-content-1-cell-4-3" ><div class="show-scrollbars">30.0</div></td></tr><tr>
+          <td id="section-6-content-block-2-cell-2-2-content-1-cell-5-1" ><div class="show-scrollbars">0.95</div></td><td id="section-6-content-block-2-cell-2-2-content-1-cell-5-2" ><div class="show-scrollbars">58.0</div></td><td id="section-6-content-block-2-cell-2-2-content-1-cell-5-3" ><div class="show-scrollbars">58.0</div></td></tr></tbody>
+</table></div></td><td id="section-6-content-block-2-cell-2-3" ><div class="show-scrollbars">
+
+
+
+<table
+  id="section-6-content-block-2-cell-2-3-content-body"
+  class="table table-sm table-unbordered col-4" 
+  data-toggle="table"
+  
+>
+    
+    
+    
+      
+    
+      <thead >
+        <tr>
+            
+                
+                <th
+                  
+                >
+                  Quantile
+                </th>
+            
+                
+                <th
+                  
+                >
+                  Value
+                </th>
+            
+        </tr>
+      </thead>
+
+    <tbody>
+      <tr>
+          <td id="section-6-content-block-2-cell-2-3-content-cell-1-1" ><div class="show-scrollbars">0.05</div></td><td id="section-6-content-block-2-cell-2-3-content-cell-1-2" ><div class="show-scrollbars">2.0</div></td></tr><tr>
+          <td id="section-6-content-block-2-cell-2-3-content-cell-2-1" ><div class="show-scrollbars">Q1</div></td><td id="section-6-content-block-2-cell-2-3-content-cell-2-2" ><div class="show-scrollbars">12.0</div></td></tr><tr>
+          <td id="section-6-content-block-2-cell-2-3-content-cell-3-1" ><div class="show-scrollbars">Median</div></td><td id="section-6-content-block-2-cell-2-3-content-cell-3-2" ><div class="show-scrollbars">23.0</div></td></tr><tr>
+          <td id="section-6-content-block-2-cell-2-3-content-cell-4-1" ><div class="show-scrollbars">Q3</div></td><td id="section-6-content-block-2-cell-2-3-content-cell-4-2" ><div class="show-scrollbars">30.0</div></td></tr><tr>
+          <td id="section-6-content-block-2-cell-2-3-content-cell-5-1" ><div class="show-scrollbars">0.95</div></td><td id="section-6-content-block-2-cell-2-3-content-cell-5-2" ><div class="show-scrollbars">58.0</div></td></tr></tbody>
+</table></div></td></tr><tr>
           <td id="section-6-content-block-2-cell-3-1" class="hide-succeeded-validation-target-child" ><div class="show-scrollbars">
                 <span >
                     <i class="fas fa-check-circle text-success" ></i>
                 </span>
             </div></td><td id="section-6-content-block-2-cell-3-2" ><div class="show-scrollbars">
                 <span >
-                    fraction of unique values must be exactly <span class="badge badge-secondary" >0.050505050505050504</span>.
+                    values must never be null.
                 </span>
-            </div></td><td id="section-6-content-block-2-cell-3-3" ><div class="show-scrollbars">≈0.05050505051</div></td></tr><tr>
+            </div></td><td id="section-6-content-block-2-cell-3-3" ><div class="show-scrollbars">100% not null</div></td></tr><tr>
           <td id="section-6-content-block-2-cell-4-1" class="hide-succeeded-validation-target-child" ><div class="show-scrollbars">
                 <span >
                     <i class="fas fa-check-circle text-success" ></i>
                 </span>
             </div></td><td id="section-6-content-block-2-cell-4-2" ><div class="show-scrollbars">
                 <span >
-                    value types must belong to this set: <span class="badge badge-secondary" >CHAR</span> <span class="badge badge-secondary" >NCHAR</span> <span class="badge badge-secondary" >VARCHAR</span> <span class="badge badge-secondary" >NVARCHAR</span> <span class="badge badge-secondary" >TEXT</span> <span class="badge badge-secondary" >NTEXT</span> <span class="badge badge-secondary" >STRING</span> <span class="badge badge-secondary" >StringType</span> <span class="badge badge-secondary" >string</span> <span class="badge badge-secondary" >str</span> <span class="badge badge-secondary" >object</span> <span class="badge badge-secondary" >dtype('O')</span>.
+                    value types must belong to this set: <span class="badge badge-secondary" >FLOAT</span> <span class="badge badge-secondary" >FLOAT4</span> <span class="badge badge-secondary" >FLOAT8</span> <span class="badge badge-secondary" >FLOAT64</span> <span class="badge badge-secondary" >DOUBLE</span> <span class="badge badge-secondary" >DOUBLE_PRECISION</span> <span class="badge badge-secondary" >NUMERIC</span> <span class="badge badge-secondary" >FloatType</span> <span class="badge badge-secondary" >DoubleType</span> <span class="badge badge-secondary" >float</span> <span class="badge badge-secondary" >float_</span> <span class="badge badge-secondary" >float16</span> <span class="badge badge-secondary" >float32</span> <span class="badge badge-secondary" >float64</span> <span class="badge badge-secondary" >number</span> <span class="badge badge-secondary" >DECIMAL</span> <span class="badge badge-secondary" >REAL</span>.
                 </span>
-            </div></td><td id="section-6-content-block-2-cell-4-3" ><div class="show-scrollbars">VARCHAR</div></td></tr></tbody>
+            </div></td><td id="section-6-content-block-2-cell-4-3" ><div class="show-scrollbars">NUMERIC</div></td></tr></tbody>
 </table>
 
 </div>
@@ -1979,7 +1798,7 @@ $(function() {
         <div>
           
                 <h5 class="m-0" >
-                    _etl_loaded_at
+                    order_id
                 </h5>
             
         </div>
@@ -2041,16 +1860,16 @@ $(function() {
                 </span>
             </div></td><td id="section-7-content-block-2-cell-1-2" ><div class="show-scrollbars">
                 <span >
-                    values must be greater than or equal to <span class="badge badge-secondary" >2022-05-18 17:23:23.705794</span> and less than or equal to <span class="badge badge-secondary" >2022-05-18 17:23:23.705794</span>.
+                    values must never be null.
                 </span>
-            </div></td><td id="section-7-content-block-2-cell-1-3" ><div class="show-scrollbars">0% unexpected</div></td></tr><tr>
+            </div></td><td id="section-7-content-block-2-cell-1-3" ><div class="show-scrollbars">100% not null</div></td></tr><tr>
           <td id="section-7-content-block-2-cell-2-1" class="hide-succeeded-validation-target-child" ><div class="show-scrollbars">
                 <span >
                     <i class="fas fa-check-circle text-success" ></i>
                 </span>
             </div></td><td id="section-7-content-block-2-cell-2-2" ><div class="show-scrollbars">
                 <span >
-                    values must belong to this set: <span class="badge badge-secondary" >2022-05-18 17:23:23.705794</span>.
+                    values must be unique.
                 </span>
             </div></td><td id="section-7-content-block-2-cell-2-3" ><div class="show-scrollbars">0% unexpected</div></td></tr><tr>
           <td id="section-7-content-block-2-cell-3-1" class="hide-succeeded-validation-target-child" ><div class="show-scrollbars">
@@ -2059,27 +1878,491 @@ $(function() {
                 </span>
             </div></td><td id="section-7-content-block-2-cell-3-2" ><div class="show-scrollbars">
                 <span >
+                    value types must belong to this set: <span class="badge badge-secondary" >INTEGER</span> <span class="badge badge-secondary" >integer</span> <span class="badge badge-secondary" >int</span> <span class="badge badge-secondary" >int_</span> <span class="badge badge-secondary" >int8</span> <span class="badge badge-secondary" >int16</span> <span class="badge badge-secondary" >int32</span> <span class="badge badge-secondary" >int64</span> <span class="badge badge-secondary" >uint8</span> <span class="badge badge-secondary" >uint16</span> <span class="badge badge-secondary" >uint32</span> <span class="badge badge-secondary" >uint64</span> <span class="badge badge-secondary" >Int8Dtype</span> <span class="badge badge-secondary" >Int16Dtype</span> <span class="badge badge-secondary" >Int32Dtype</span> <span class="badge badge-secondary" >Int64Dtype</span> <span class="badge badge-secondary" >UInt8Dtype</span> <span class="badge badge-secondary" >UInt16Dtype</span> <span class="badge badge-secondary" >UInt32Dtype</span> <span class="badge badge-secondary" >UInt64Dtype</span> <span class="badge badge-secondary" >INT</span> <span class="badge badge-secondary" >INTEGER</span> <span class="badge badge-secondary" >INT64</span> <span class="badge badge-secondary" >TINYINT</span> <span class="badge badge-secondary" >BYTEINT</span> <span class="badge badge-secondary" >SMALLINT</span> <span class="badge badge-secondary" >BIGINT</span> <span class="badge badge-secondary" >IntegerType</span> <span class="badge badge-secondary" >LongType</span>.
+                </span>
+            </div></td><td id="section-7-content-block-2-cell-3-3" ><div class="show-scrollbars">INTEGER</div></td></tr></tbody>
+</table>
+
+</div>
+        
+    </div>
+</div>
+        
+          <div id="section-8" class="ge-section container-fluid mb-1 pb-1 pl-sm-3 px-0">
+    <div class="row" >
+        
+
+<div id="section-8-content-block-1" class="col-12 p-0" >
+
+    <div id="section-8-content-block-1-header" class="alert alert-secondary" >
+        <div>
+          
+                <h5 class="m-0" >
+                    order_placed_at
+                </h5>
+            
+        </div>
+      
+    </div>
+
+</div>
+        
+
+<div id="section-8-content-block-2" class="ml-2 mr-2 mt-0 mb-0 table-responsive hide-succeeded-validations-column-section-target-child" >
+
+    
+
+
+
+<table
+  id="section-8-content-block-2-body"
+  class="table" 
+  data-toggle="table"
+  data-search="True" data-icon-size="sm" 
+>
+    
+    
+    
+      
+    
+      <thead >
+        <tr>
+            
+                
+                <th
+                  data-sortable="True" 
+                >
+                  Status
+                </th>
+            
+                
+                <th
+                  
+                >
+                  Expectation
+                </th>
+            
+                
+                <th
+                  
+                >
+                  Observed Value
+                </th>
+            
+        </tr>
+      </thead>
+
+    <tbody>
+      <tr>
+          <td id="section-8-content-block-2-cell-1-1" class="hide-succeeded-validation-target-child" ><div class="show-scrollbars">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-8-content-block-2-cell-1-2" ><div class="show-scrollbars">
+                <span >
                     values must never be null.
                 </span>
-            </div></td><td id="section-7-content-block-2-cell-3-3" ><div class="show-scrollbars">100% not null</div></td></tr><tr>
-          <td id="section-7-content-block-2-cell-4-1" class="hide-succeeded-validation-target-child" ><div class="show-scrollbars">
+            </div></td><td id="section-8-content-block-2-cell-1-3" ><div class="show-scrollbars">100% not null</div></td></tr><tr>
+          <td id="section-8-content-block-2-cell-2-1" class="hide-succeeded-validation-target-child" ><div class="show-scrollbars">
                 <span >
                     <i class="fas fa-check-circle text-success" ></i>
                 </span>
-            </div></td><td id="section-7-content-block-2-cell-4-2" ><div class="show-scrollbars">
-                <span >
-                    fraction of unique values must be exactly <span class="badge badge-secondary" >0.010101010101010102</span>.
-                </span>
-            </div></td><td id="section-7-content-block-2-cell-4-3" ><div class="show-scrollbars">≈0.0101010101</div></td></tr><tr>
-          <td id="section-7-content-block-2-cell-5-1" class="hide-succeeded-validation-target-child" ><div class="show-scrollbars">
-                <span >
-                    <i class="fas fa-check-circle text-success" ></i>
-                </span>
-            </div></td><td id="section-7-content-block-2-cell-5-2" ><div class="show-scrollbars">
+            </div></td><td id="section-8-content-block-2-cell-2-2" ><div class="show-scrollbars">
                 <span >
                     value types must belong to this set: <span class="badge badge-secondary" >DATE</span> <span class="badge badge-secondary" >TIME</span> <span class="badge badge-secondary" >DATETIME</span> <span class="badge badge-secondary" >DATETIME2</span> <span class="badge badge-secondary" >DATETIME64</span> <span class="badge badge-secondary" >SMALLDATETIME</span> <span class="badge badge-secondary" >DATETIMEOFFSET</span> <span class="badge badge-secondary" >TIMESTAMP</span> <span class="badge badge-secondary" >Timestamp</span> <span class="badge badge-secondary" >TimestampType</span> <span class="badge badge-secondary" >DateType</span> <span class="badge badge-secondary" >datetime64</span> <span class="badge badge-secondary" >datetime64[ns]</span> <span class="badge badge-secondary" >timedelta[ns]</span> <span class="badge badge-secondary" ><M8[ns]</span>.
                 </span>
-            </div></td><td id="section-7-content-block-2-cell-5-3" ><div class="show-scrollbars">TIMESTAMP</div></td></tr></tbody>
+            </div></td><td id="section-8-content-block-2-cell-2-3" ><div class="show-scrollbars">DATE</div></td></tr></tbody>
+</table>
+
+</div>
+        
+    </div>
+</div>
+        
+          <div id="section-9" class="ge-section container-fluid mb-1 pb-1 pl-sm-3 px-0">
+    <div class="row" >
+        
+
+<div id="section-9-content-block-1" class="col-12 p-0" >
+
+    <div id="section-9-content-block-1-header" class="alert alert-secondary" >
+        <div>
+          
+                <h5 class="m-0" >
+                    order_status
+                </h5>
+            
+        </div>
+      
+    </div>
+
+</div>
+        
+
+<div id="section-9-content-block-2" class="ml-2 mr-2 mt-0 mb-0 table-responsive hide-succeeded-validations-column-section-target-child" >
+
+    
+
+
+
+<table
+  id="section-9-content-block-2-body"
+  class="table" 
+  data-toggle="table"
+  data-search="True" data-icon-size="sm" 
+>
+    
+    
+    
+      
+    
+      <thead >
+        <tr>
+            
+                
+                <th
+                  data-sortable="True" 
+                >
+                  Status
+                </th>
+            
+                
+                <th
+                  
+                >
+                  Expectation
+                </th>
+            
+                
+                <th
+                  
+                >
+                  Observed Value
+                </th>
+            
+        </tr>
+      </thead>
+
+    <tbody>
+      <tr>
+          <td id="section-9-content-block-2-cell-1-1" class="hide-succeeded-validation-target-child" ><div class="show-scrollbars">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-9-content-block-2-cell-1-2" ><div class="show-scrollbars">
+                <span >
+                    values must belong to this set: <span class="badge badge-secondary" >completed</span> <span class="badge badge-secondary" >placed</span> <span class="badge badge-secondary" >return_pending</span> <span class="badge badge-secondary" >returned</span> <span class="badge badge-secondary" >shipped</span>.
+                </span>
+            </div></td><td id="section-9-content-block-2-cell-1-3" ><div class="show-scrollbars">0% unexpected</div></td></tr><tr>
+          <td id="section-9-content-block-2-cell-2-1" class="hide-succeeded-validation-target-child" ><div class="show-scrollbars">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-9-content-block-2-cell-2-2" ><div class="show-scrollbars">
+                <span >
+                    values must never be null.
+                </span>
+            </div></td><td id="section-9-content-block-2-cell-2-3" ><div class="show-scrollbars">100% not null</div></td></tr><tr>
+          <td id="section-9-content-block-2-cell-3-1" class="hide-succeeded-validation-target-child" ><div class="show-scrollbars">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-9-content-block-2-cell-3-2" ><div class="show-scrollbars">
+                <span >
+                    value types must belong to this set: <span class="badge badge-secondary" >CHAR</span> <span class="badge badge-secondary" >NCHAR</span> <span class="badge badge-secondary" >VARCHAR</span> <span class="badge badge-secondary" >NVARCHAR</span> <span class="badge badge-secondary" >TEXT</span> <span class="badge badge-secondary" >NTEXT</span> <span class="badge badge-secondary" >STRING</span> <span class="badge badge-secondary" >StringType</span> <span class="badge badge-secondary" >string</span> <span class="badge badge-secondary" >str</span> <span class="badge badge-secondary" >object</span> <span class="badge badge-secondary" >dtype('O')</span>.
+                </span>
+            </div></td><td id="section-9-content-block-2-cell-3-3" ><div class="show-scrollbars">VARCHAR</div></td></tr></tbody>
+</table>
+
+</div>
+        
+    </div>
+</div>
+        
+          <div id="section-10" class="ge-section container-fluid mb-1 pb-1 pl-sm-3 px-0">
+    <div class="row" >
+        
+
+<div id="section-10-content-block-1" class="col-12 p-0" >
+
+    <div id="section-10-content-block-1-header" class="alert alert-secondary" >
+        <div>
+          
+                <h5 class="m-0" >
+                    payment_finalized_date
+                </h5>
+            
+        </div>
+      
+    </div>
+
+</div>
+        
+
+<div id="section-10-content-block-2" class="ml-2 mr-2 mt-0 mb-0 table-responsive hide-succeeded-validations-column-section-target-child" >
+
+    
+
+
+
+<table
+  id="section-10-content-block-2-body"
+  class="table" 
+  data-toggle="table"
+  data-search="True" data-icon-size="sm" 
+>
+    
+    
+    
+      
+    
+      <thead >
+        <tr>
+            
+                
+                <th
+                  data-sortable="True" 
+                >
+                  Status
+                </th>
+            
+                
+                <th
+                  
+                >
+                  Expectation
+                </th>
+            
+                
+                <th
+                  
+                >
+                  Observed Value
+                </th>
+            
+        </tr>
+      </thead>
+
+    <tbody>
+      <tr>
+          <td id="section-10-content-block-2-cell-1-1" class="hide-succeeded-validation-target-child" ><div class="show-scrollbars">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-10-content-block-2-cell-1-2" ><div class="show-scrollbars">
+                <span >
+                    values must never be null.
+                </span>
+            </div></td><td id="section-10-content-block-2-cell-1-3" ><div class="show-scrollbars">100% not null</div></td></tr><tr>
+          <td id="section-10-content-block-2-cell-2-1" class="hide-succeeded-validation-target-child" ><div class="show-scrollbars">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-10-content-block-2-cell-2-2" ><div class="show-scrollbars">
+                <span >
+                    value types must belong to this set: <span class="badge badge-secondary" >DATE</span> <span class="badge badge-secondary" >TIME</span> <span class="badge badge-secondary" >DATETIME</span> <span class="badge badge-secondary" >DATETIME2</span> <span class="badge badge-secondary" >DATETIME64</span> <span class="badge badge-secondary" >SMALLDATETIME</span> <span class="badge badge-secondary" >DATETIMEOFFSET</span> <span class="badge badge-secondary" >TIMESTAMP</span> <span class="badge badge-secondary" >Timestamp</span> <span class="badge badge-secondary" >TimestampType</span> <span class="badge badge-secondary" >DateType</span> <span class="badge badge-secondary" >datetime64</span> <span class="badge badge-secondary" >datetime64[ns]</span> <span class="badge badge-secondary" >timedelta[ns]</span> <span class="badge badge-secondary" ><M8[ns]</span>.
+                </span>
+            </div></td><td id="section-10-content-block-2-cell-2-3" ><div class="show-scrollbars">DATE</div></td></tr></tbody>
+</table>
+
+</div>
+        
+    </div>
+</div>
+        
+          <div id="section-11" class="ge-section container-fluid mb-1 pb-1 pl-sm-3 px-0">
+    <div class="row" >
+        
+
+<div id="section-11-content-block-1" class="col-12 p-0" >
+
+    <div id="section-11-content-block-1-header" class="alert alert-secondary" >
+        <div>
+          
+                <h5 class="m-0" >
+                    total_amount_paid
+                </h5>
+            
+        </div>
+      
+    </div>
+
+</div>
+        
+
+<div id="section-11-content-block-2" class="ml-2 mr-2 mt-0 mb-0 table-responsive hide-succeeded-validations-column-section-target-child" >
+
+    
+
+
+
+<table
+  id="section-11-content-block-2-body"
+  class="table" 
+  data-toggle="table"
+  data-search="True" data-icon-size="sm" 
+>
+    
+    
+    
+      
+    
+      <thead >
+        <tr>
+            
+                
+                <th
+                  data-sortable="True" 
+                >
+                  Status
+                </th>
+            
+                
+                <th
+                  
+                >
+                  Expectation
+                </th>
+            
+                
+                <th
+                  
+                >
+                  Observed Value
+                </th>
+            
+        </tr>
+      </thead>
+
+    <tbody>
+      <tr>
+          <td id="section-11-content-block-2-cell-1-1" class="hide-succeeded-validation-target-child" ><div class="show-scrollbars">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-11-content-block-2-cell-1-2" ><div class="show-scrollbars">
+                <span >
+                    minimum value must be greater than or equal to <span class="badge badge-secondary" >0.0</span> and less than or equal to <span class="badge badge-secondary" >0.0</span>.
+                </span>
+            </div></td><td id="section-11-content-block-2-cell-1-3" ><div class="show-scrollbars">0</div></td></tr><tr>
+          <td id="section-11-content-block-2-cell-2-1" class="hide-succeeded-validation-target-child" ><div class="show-scrollbars">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-11-content-block-2-cell-2-2" ><div class="show-scrollbars">
+                <span >
+                    quantiles must be within the following value ranges.
+                </span>
+            
+
+
+
+<table
+  id="section-11-content-block-2-cell-2-2-content-1-body"
+  class="table table-sm table-unbordered col-4 mt-2" 
+  data-toggle="table"
+  
+>
+    
+    
+    
+      
+    
+      <thead >
+        <tr>
+            
+                
+                <th
+                  
+                >
+                  Quantile
+                </th>
+            
+                
+                <th
+                  
+                >
+                  Min Value
+                </th>
+            
+                
+                <th
+                  
+                >
+                  Max Value
+                </th>
+            
+        </tr>
+      </thead>
+
+    <tbody>
+      <tr>
+          <td id="section-11-content-block-2-cell-2-2-content-1-cell-1-1" ><div class="show-scrollbars">0.05</div></td><td id="section-11-content-block-2-cell-2-2-content-1-cell-1-2" ><div class="show-scrollbars">2.0</div></td><td id="section-11-content-block-2-cell-2-2-content-1-cell-1-3" ><div class="show-scrollbars">2.0</div></td></tr><tr>
+          <td id="section-11-content-block-2-cell-2-2-content-1-cell-2-1" ><div class="show-scrollbars">Q1</div></td><td id="section-11-content-block-2-cell-2-2-content-1-cell-2-2" ><div class="show-scrollbars">8.0</div></td><td id="section-11-content-block-2-cell-2-2-content-1-cell-2-3" ><div class="show-scrollbars">8.0</div></td></tr><tr>
+          <td id="section-11-content-block-2-cell-2-2-content-1-cell-3-1" ><div class="show-scrollbars">Median</div></td><td id="section-11-content-block-2-cell-2-2-content-1-cell-3-2" ><div class="show-scrollbars">17.0</div></td><td id="section-11-content-block-2-cell-2-2-content-1-cell-3-3" ><div class="show-scrollbars">17.0</div></td></tr><tr>
+          <td id="section-11-content-block-2-cell-2-2-content-1-cell-4-1" ><div class="show-scrollbars">Q3</div></td><td id="section-11-content-block-2-cell-2-2-content-1-cell-4-2" ><div class="show-scrollbars">24.0</div></td><td id="section-11-content-block-2-cell-2-2-content-1-cell-4-3" ><div class="show-scrollbars">24.0</div></td></tr><tr>
+          <td id="section-11-content-block-2-cell-2-2-content-1-cell-5-1" ><div class="show-scrollbars">0.95</div></td><td id="section-11-content-block-2-cell-2-2-content-1-cell-5-2" ><div class="show-scrollbars">30.0</div></td><td id="section-11-content-block-2-cell-2-2-content-1-cell-5-3" ><div class="show-scrollbars">30.0</div></td></tr></tbody>
+</table></div></td><td id="section-11-content-block-2-cell-2-3" ><div class="show-scrollbars">
+
+
+
+<table
+  id="section-11-content-block-2-cell-2-3-content-body"
+  class="table table-sm table-unbordered col-4" 
+  data-toggle="table"
+  
+>
+    
+    
+    
+      
+    
+      <thead >
+        <tr>
+            
+                
+                <th
+                  
+                >
+                  Quantile
+                </th>
+            
+                
+                <th
+                  
+                >
+                  Value
+                </th>
+            
+        </tr>
+      </thead>
+
+    <tbody>
+      <tr>
+          <td id="section-11-content-block-2-cell-2-3-content-cell-1-1" ><div class="show-scrollbars">0.05</div></td><td id="section-11-content-block-2-cell-2-3-content-cell-1-2" ><div class="show-scrollbars">2.0</div></td></tr><tr>
+          <td id="section-11-content-block-2-cell-2-3-content-cell-2-1" ><div class="show-scrollbars">Q1</div></td><td id="section-11-content-block-2-cell-2-3-content-cell-2-2" ><div class="show-scrollbars">8.0</div></td></tr><tr>
+          <td id="section-11-content-block-2-cell-2-3-content-cell-3-1" ><div class="show-scrollbars">Median</div></td><td id="section-11-content-block-2-cell-2-3-content-cell-3-2" ><div class="show-scrollbars">17.0</div></td></tr><tr>
+          <td id="section-11-content-block-2-cell-2-3-content-cell-4-1" ><div class="show-scrollbars">Q3</div></td><td id="section-11-content-block-2-cell-2-3-content-cell-4-2" ><div class="show-scrollbars">24.0</div></td></tr><tr>
+          <td id="section-11-content-block-2-cell-2-3-content-cell-5-1" ><div class="show-scrollbars">0.95</div></td><td id="section-11-content-block-2-cell-2-3-content-cell-5-2" ><div class="show-scrollbars">30.0</div></td></tr></tbody>
+</table></div></td></tr><tr>
+          <td id="section-11-content-block-2-cell-3-1" class="hide-succeeded-validation-target-child" ><div class="show-scrollbars">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-11-content-block-2-cell-3-2" ><div class="show-scrollbars">
+                <span >
+                    values must never be null.
+                </span>
+            </div></td><td id="section-11-content-block-2-cell-3-3" ><div class="show-scrollbars">100% not null</div></td></tr><tr>
+          <td id="section-11-content-block-2-cell-4-1" class="hide-succeeded-validation-target-child" ><div class="show-scrollbars">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-11-content-block-2-cell-4-2" ><div class="show-scrollbars">
+                <span >
+                    value types must belong to this set: <span class="badge badge-secondary" >FLOAT</span> <span class="badge badge-secondary" >FLOAT4</span> <span class="badge badge-secondary" >FLOAT8</span> <span class="badge badge-secondary" >FLOAT64</span> <span class="badge badge-secondary" >DOUBLE</span> <span class="badge badge-secondary" >DOUBLE_PRECISION</span> <span class="badge badge-secondary" >NUMERIC</span> <span class="badge badge-secondary" >FloatType</span> <span class="badge badge-secondary" >DoubleType</span> <span class="badge badge-secondary" >float</span> <span class="badge badge-secondary" >float_</span> <span class="badge badge-secondary" >float16</span> <span class="badge badge-secondary" >float32</span> <span class="badge badge-secondary" >float64</span> <span class="badge badge-secondary" >number</span> <span class="badge badge-secondary" >DECIMAL</span> <span class="badge badge-secondary" >REAL</span>.
+                </span>
+            </div></td><td id="section-11-content-block-2-cell-4-3" ><div class="show-scrollbars">NUMERIC</div></td></tr></tbody>
 </table>
 
 </div>
