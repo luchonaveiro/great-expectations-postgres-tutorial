@@ -82,3 +82,4 @@ $ great_expectations checkpoint run sources.jaffle_shop__customers
 ```
 
 Also, we can open the `uncommited/data_docs/local_site/index.html` file to see the result of the different runs, together with the definition of each *Expectation*.
+
