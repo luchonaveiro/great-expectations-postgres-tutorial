@@ -32,7 +32,7 @@ Once you’ve created your *Expectations*, `Great Expectations` can load any bat
 ## Project Setup
 
 To start with the tutorial, we should create the `PostgreSQL` and insert the data to it. To do so, we can execute the following commands:
-```
+``` 
 $ cd db
 $ docker compose up
 ```
@@ -68,7 +68,15 @@ great_expectations suite edit jaffle_shop.customers.warning # this should be the
 
 There we can choose `Interactively, with a sample batch of data`, and a notebook will open, and there we can add the new validations. Once runned, the `.json` filestored on `expectations` directory, will be modified with the proper validations.
 
-In this way, we can create the *Expectations* of all the desires tables from the database.
+In this way, we can create the *Expectations* of all the desired tables from the database.
+
+For this example, we are defining the following validations:
+- `expect_column_values_to_not_be_null`: for sevral columns of the differnet tables
+- `expect_column_values_to_be_unique`: to each table's primary key
+- `expect_column_values_to_be_in_type_list`: to define each column data type
+- `expect_column_values_to_be_in_set`: whenever we know all the possible values a column should take
+- `expect_column_quantile_values_to_be_between`: after profiling the data, to know how the distribution behaves (for numeric columns)
+
 
 Once the *Expectations* have been defined, we can run them by executing:
 ```
@@ -82,3 +90,5 @@ $ great_expectations checkpoint run sources.jaffle_shop__customers
 ```
 
 Also, we can open the `uncommited/data_docs/local_site/index.html` file to see the result of the different runs, together with the definition of each *Expectation*.
+
+To finish, we can see an example of how to implement `Great Expectations` on pyspark, specifically on a Databricks notebook. We can find the notebook on the `databricks_notebook` directory. There we are using the `SparkDFDataset` to initiate `Great Expectations`, and then we can use all the different methods we already saw.
